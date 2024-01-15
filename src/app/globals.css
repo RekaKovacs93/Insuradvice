@@ -11,7 +11,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 26, 28, 35;
+  --foreground-rgb: 60, 62, 66;
   --background-start-rgb: 208, 211, 220;
   --background-end-rgb: 208, 211, 220;
   --accent-rgb: 255, 234, 0;
@@ -80,4 +80,19 @@ body.dark-mode {
 nav {
   /* font-family: "Orbitron"; */
   font-weight: 100;
+}
+
+
+.neumorphic-button {
+  background: #f0f0f0;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.neumorphic-button:hover {
+  box-shadow: inset 8px 8px 16px #b8b8b8, inset -8px -8px 16px #ffffff;
 }

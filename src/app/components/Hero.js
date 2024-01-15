@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <div className="relative w-screen">
             {/* Computer Layout */}
-            <div className="w-screen relative hidden md:block">
+            <div className="w-screen relative hidden md:block items-center">
                 <Image
                     src="https://cdn.pixabay.com/photo/2018/05/11/09/29/glass-3389935_1280.jpg"
                     alt="Interior Photo"
@@ -13,9 +13,9 @@ export default function Hero() {
                     height={500}
                     className="opacity-10"
                 />
-                <div className="absolute top-0 left-0 w-2/5 h-full flex flex-col items-center justify-center p-12">
+                <div className="absolute w-screen top-0 h-full flex flex-col items-center justify-center p-12">
                     <h1 className="text-center text-3xl mb-10"><b>Üdvözöljük az <h1 className="font text-6xl my-5">INSURADVICE</h1> honlapján!</b></h1>
-                    <button className="mt-5 border border-accent hover:bg-dark hover:bg-opacity-50 text-white font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>
+                    <button className="mt-5 border-2 border-accent hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>
                 </div>
             </div>
             {/* Mobile and Tablet Layout */}
