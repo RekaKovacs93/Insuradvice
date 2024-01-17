@@ -15,7 +15,7 @@ export default function Hero() {
                 />
                 <div className="absolute w-screen top-0 h-full flex flex-col items-center justify-center p-12">
                     <h1 className="text-center text-3xl mb-10"><b>Üdvözöljük az <h1 className="font text-6xl my-5">INSURADVICE</h1> honlapján!</b></h1>
-                    <button className="mt-5 border-2 border-accent hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>
+                    <button className="mt-5 border-2 dark:border-accent border-accentLight hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>
                 </div>
             </div>
             {/* Mobile and Tablet Layout */}

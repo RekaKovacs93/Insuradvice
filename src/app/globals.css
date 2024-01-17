@@ -14,7 +14,8 @@
   --foreground-rgb: 60, 62, 66;
   --background-start-rgb: 208, 211, 220;
   --background-end-rgb: 208, 211, 220;
-  --accent-rgb: 255, 234, 0;
+  --accent-dark-rgb: 255, 234, 0;
+  --accent-light-rgb: 0, 213, 216
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -27,20 +28,21 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
   letter-spacing: "wider";
-  transition: background 0.25s ease-in-out;
+  /* transition: background 0.25s ease-in-out; */
 }
 
-body.dark-mode {
+body.dark {
   background-color: rgb(26, 28, 35); /* Dark background color */
   color: rgb(208, 211, 220); /* Light text color */
+  /* border-color: var(--accent-dark-rgb); */
 }
+
+/* 
+body:not(.dark-mode) {
+  border-color: var(--accent-light-rgb);
+} */
+
 
 /* Customize the toggle switch appearance */
 #darkModeToggle:checked + label .w-5 {
@@ -64,9 +66,12 @@ body.dark-mode {
   height: 1px;
   bottom: -2px;
   left: 0;
-  background-color: rgb(255, 234, 0); /* Change this to your desired underline color */
+  background-color: rgb(0, 213, 216); /* Change this to your desired underline color */
   transform: scaleX(0);
   transition:  0.4s ease-in-out;
+}
+body.dark #hover-underline::after{
+  background-color: rgb(255, 234, 0);; /* Change this to your desired underline color */
 }
 
 #hover-underline:hover::after {

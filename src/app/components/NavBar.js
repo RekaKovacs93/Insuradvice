@@ -41,7 +41,7 @@ export default function NavBar() {
   // Outside your existing component
 function toggleDarkMode() {
   const body = document.body;
-  body.classList.toggle('dark-mode'); // Toggle a dark-mode class on the body
+  body.classList.toggle('dark'); // Toggle a dark-mode class on the body
 }
 
 
