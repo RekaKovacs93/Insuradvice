@@ -24,7 +24,7 @@ module.exports = {
       },
       colors: {
         dark: 'rgb(26, 28, 35)',
-        text: 'rgb(208, 211, 220)',
+        light: 'rgb(233, 236, 247)',
         accent: 'rgb(255, 234, 0)',
         accentLight: "rgb(0, 213, 216)"
       },

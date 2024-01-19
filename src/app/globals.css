@@ -12,29 +12,30 @@
 
 :root {
   --foreground-rgb: 60, 62, 66;
-  --background-start-rgb: 208, 211, 220;
-  --background-end-rgb: 208, 211, 220;
+  --background-start-rgb: 233, 236, 247
+  --background-end-rgb: 233, 236, 247
   --accent-dark-rgb: 255, 234, 0;
   --accent-light-rgb: 0, 213, 216
 }
 
 /* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 208, 211, 220;
+    --foreground-rgb: 233, 236, 247
     --background-start-rgb: 26, 28, 35;
     --background-end-rgb: 26, 28, 35;
   }
 } */
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background-color: rgb(233, 236, 247);
+  color: rgb(26, 28, 35);
   letter-spacing: "wider";
   /* transition: background 0.25s ease-in-out; */
 }
 
 body.dark {
   background-color: rgb(26, 28, 35); /* Dark background color */
-  color: rgb(208, 211, 220); /* Light text color */
+  color: rgb(233, 236, 247); /* Light text color */
   /* border-color: var(--accent-dark-rgb); */
 }
 
@@ -46,11 +47,27 @@ body:not(.dark-mode) {
 
 /* Customize the toggle switch appearance */
 #darkModeToggle:checked + label .w-5 {
-  transform: translateX(100%); /* Move the toggle to the right for dark mode */
+  transform: translateX(75%); /* Move the toggle to the right for dark mode */
 }
 
 #darkModeToggle:checked + label {
-  background-color: #4a5568; /* Dark background color for the toggle switch */
+  background-color: #4a5568; 
+}
+
+#darkModeToggle:checked + label .fa-moon {
+  display: inline-block; 
+}
+
+#darkModeToggle:checked + label .fa-sun {
+  display: none; 
+}
+
+#darkModeToggle:not(:checked) + label .fa-moon {
+  display: none; 
+}
+
+#darkModeToggle:not(:checked) + label .fa-sun {
+  display: inline-block; 
 }
 
 #hover-underline {
@@ -85,19 +102,92 @@ body.dark #hover-underline::after{
 nav {
   /* font-family: "Orbitron"; */
   font-weight: 100;
+  /* background-color: rgb(233, 236, 247); */
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(233, 236, 247, 0.9) 0%,
+    rgba(233, 236, 247, 0.6) 25%,
+    rgba(233, 236, 247, 0.4) 50%,
+    rgba(233, 236, 247, 0.2) 75%,
+    rgba(233, 236, 247, 0) 100%
+  );
+}
+
+.dark .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(26, 28, 35, 0.9) 0%,
+    rgba(26, 28, 35, 0.6) 25%,
+    rgba(26, 28, 35, 0.4) 50%,
+    rgba(26, 28, 35, 0.2) 75%,
+    rgba(26, 28, 35, 0) 100%
+  );
 }
 
 
-.neumorphic-button {
-  background: #f0f0f0;
-  padding: 16px;
-  border: none;
-  border-radius: 16px;
-  box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff;
-  transition: box-shadow 0.3s ease;
-  cursor: pointer;
+
+.shadow-neumorphic {
+  box-shadow: 5px 5px 10px #b8c4ce,
+  -5px -5px 10px rgb(233, 236, 247),
+  2px 2px 2px 0px rgb(233, 236, 247) inset,
+  -2px -2px 2px 0px #b8c4ce inset
+  
 }
 
-.neumorphic-button:hover {
-  box-shadow: inset 8px 8px 16px #b8b8b8, inset -8px -8px 16px #ffffff;
+.dark .shadow-neumorphic {
+  box-shadow: 5px 5px 10px rgb(0, 0, 0),
+  -5px -5px 10px rgb(48, 51, 58),
+  2px 2px 2px 0px rgb(48, 51, 58) inset,
+  -2px -2px 2px 0px rgb(0, 0, 0) inset
 }
+
+.text-neumorphic {
+  text-shadow: 5px 5px 10px #b8c4ce,
+  -5px -5px 10px rgb(233, 236, 247)
+  
+}
+
+.dark .text-neumorphic {
+  text-shadow: 5px 5px 10px rgb(0, 0, 0),
+  -5px -5px 10px rgb(48, 51, 58)
+}
+
+ 
+#card {
+  transition: transform 1s ease;
+  transform-style: preserve-3d;
+}
+
+#card:hover {
+  transform: rotateY(180deg);
+}
+
+
+
+
+#card:hover #desc{
+  opacity: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+
+}
+
+#card:hover #title{
+  backface-visibility: hidden;
+  opacity: 0%;
+
+}
+
