@@ -76,9 +76,9 @@ function toggleDarkMode() {
           />
           <label
             htmlFor="darkModeToggle"
-            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between  opacity-75 rounded-full p-1"
+            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between rounded-full p-1"
           >
-            <div className="w-5 h-5 p-2  rounded-full bg-light dark:bg-dark shadow-md  duration-300 relative z-0">
+            <div className="w-5 h-5 p-2 shadow-md rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
     <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
     <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
   </div>

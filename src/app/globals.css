@@ -50,9 +50,7 @@ body:not(.dark-mode) {
   transform: translateX(75%); /* Move the toggle to the right for dark mode */
 }
 
-#darkModeToggle:checked + label {
-  background-color: #4a5568; 
-}
+
 
 #darkModeToggle:checked + label .fa-moon {
   display: inline-block; 
@@ -105,7 +103,7 @@ nav {
   /* background-color: rgb(233, 236, 247); */
 }
 
-.gradient-overlay {
+/* .gradient-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -135,7 +133,26 @@ nav {
     rgba(26, 28, 35, 0.2) 75%,
     rgba(26, 28, 35, 0) 100%
   );
+} */
+
+.inverted-image {
+  filter: invert(1);
 }
+
+.dark .inverted-image {
+  filter: invert(0);
+}
+
+.gradient {
+  background: radial-gradient(ellipse at center, rgba(233, 236, 247, 0) 0%, transparent 1%, rgba(233, 236, 247, 1) 70%, rgba(233, 236, 247, 1) 100%);
+  background-size: cover;
+}
+
+.dark .gradient {
+  background: radial-gradient(ellipse at center, rgba(26, 28, 35, 0) 0%, transparent 1%, rgba(26, 28, 35, 1) 70%, rgba(26, 28, 35, 1) 100%);
+  background-size: cover;
+}
+
 
 
 
@@ -165,29 +182,26 @@ nav {
   -5px -5px 10px rgb(48, 51, 58)
 }
 
- 
-#card {
-  transition: transform 1s ease;
-  transform-style: preserve-3d;
-}
-
-#card:hover {
-  transform: rotateY(180deg);
-}
-
-
-
 
 #card:hover #desc{
   opacity: 100%;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-
 }
 
 #card:hover #title{
-  backface-visibility: hidden;
   opacity: 0%;
-
 }
 
+
+.hexagon {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Height is calculated as (sqrt(3) / 2) * width */
+  position: relative;
+  margin: 28.87px 0; /* Margin to create space between hexagons */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* border: 2px solid rgba(0, 0, 0); */
+  
+
+  &:hover {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+  }
+}
