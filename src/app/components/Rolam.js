@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Rolam() {
   return (
-    <div className="">
+    <div>
       {/* Mobile View */}
       <div className="md:hidden flex flex-col items-center justify-between h-screen px-8 text-center">
         {/* <div className="text-center px-8 my-16"> */}
@@ -25,39 +25,28 @@ export default function Rolam() {
 
       {/* Desktop View */}
       <div className="hidden md:flex items-center justify-center min-h-screen mt-20">
-        <div className="w-2/5 mx-20 px-8 py-10">
-          <h1 className="text-2xl text-center mb-12">
-          Miben vagyunk mások, mint a többi ingatlanközvetítő cég?
+        <div className=" mx-20 px-8 py-10 justify-center flex flex-col">
+          <h1 className="text-3xl text-center mb-12">
+          Üdvözöllek a weboldalamon
           </h1>
           <p className="text-lg text-center">
-          A csapatunk több évtizedes sikeres szakmai múlttal rendelkeznek. Biztosak vagyunk benne, hogy az Ön ingatlanát is el fogjuk adni, <b>ezért az ehhez szükséges extra szolgáltatások költségét megelőlegezzük leendő jutalékunk terhére.</b> Vevőink számára küldetésünk, hogy megtaláljuk azt az otthont, amely tökéletesen illeszkedik álmaikhoz és igényeikhez. Egyedi szolgáltatásainkkal és szakértelmünkkel azon dolgozunk, hogy az ingatlanvásárlás folyamata ne csak hatékony, de örömteli és megnyugtató élmény legyen számukra. Várjuk, hogy segíthessünk Önnek is az ideális otthon megtalálásában!
+          Vadász Róbert vagyok, a TE személyes és független pénzügyi tanácsadód
           </p>
-          {/* <div className="flex justify-center mt-12">
-            <button className="border border-darkgrey hover:bg-black hover:bg-opacity-25 text-grey font-bold py-2 px-4 rounded-full transition duration-300">
-              <a href="/#contact">Lepjen kapcsolatba!</a>
-            </button>
-          </div> */}
-          <div className="flex gap-5 justify-center mt-10">
-          <div>
-            <button className="border-2 border-darkgrey hover:bg-black hover:bg-opacity-25 text-grey font-bold py-2 px-4 rounded-full transition duration-300">
-              <a href="./elado" className="text-xl">Eladó vagyok</a>
-            </button>
-          </div>
-          <div>
-            <button className="border-2 border-darkgrey hover:bg-black hover:bg-opacity-25 text-grey font-bold py-2 px-4 rounded-full transition duration-300">
-              <a href="./vevo" className="text-xl">Vevő vagyok</a>
-            </button>
-          </div>
+          <p className="text-lg text-center">Szeretnélek elkalauzolni egy olyan világba, amiről lehetséges, hogy eddig csak ábrándoztál, de az is előfordulhat, hogy a fejedben már megszületett egyfajta döntés, hogy tudatosan kezeld a pénzügyeidet</p>
+          <button className="shadow-neumorphic hover:scale-125 mt-5 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
+          
         </div>
-        </div>
-        <div className="w-2/3 relative flex justify-end">
-          <div className="aspect-w-6 aspect-h-4 items-right">
+        <div className="relative flex justify-end">
+          <div className="relative aspect-w-6 aspect-h-4 items-right">
+          <div className="absolute top-0 w-full h-full flex flex-col items-center justify-center radial-gradient">
             <Image
-            src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_1280.jpg"
+            src="https://cdn.pixabay.com/photo/2021/05/06/12/39/hexagon-6233333_1280.jpg"
             alt="image of bedroom"
-            width={1200} // Add width here
+            width={2000} // Add width here
             height={800} // Add height here
+            className="inverted-image bw-image radial-gradient opacity-10"
             />
+            </div>
           </div>
         </div>
       </div>

@@ -11,11 +11,11 @@ export default function Hero() {
                     layout="responsive"
                     width={2000}
                     height={500}
-                    className="opacity-40 inverted-image dark:filter-none"
+                    className="opacity-40 inverted-image"
                 />
-                <div className="absolute w-screen top-0 h-full flex flex-col items-center justify-center gradient">
-                    <h1 className="text-center mb-10 text-neumorphic  text-9xl my-5">INSURADVICE</h1>
-                    <h1 className="text-center mb-10 text-3xl my-5">Biztosítás másképp</h1>
+                <div className="absolute w-screen top-0 h-full flex flex-col items-center justify-center radial-gradient">
+                    <h1 className="text-center mb-10 text-neumorphic font text-9xl my-5">INSURADVICE</h1>
+                    <h1 className="text-center mb-10 text-3xl my-5">Személyes és független pénzügyi tanácsadás</h1>
                     <button className="shadow-neumorphic hover:scale-125 mt-5 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
                 </div>
             </div>

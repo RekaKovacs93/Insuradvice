@@ -143,15 +143,33 @@ nav {
   filter: invert(0);
 }
 
-.gradient {
+.bw-image {
+  filter: grayscale(100%);
+}
+
+
+.radial-gradient {
   background: radial-gradient(ellipse at center, rgba(233, 236, 247, 0) 0%, transparent 1%, rgba(233, 236, 247, 1) 70%, rgba(233, 236, 247, 1) 100%);
   background-size: cover;
 }
 
-.dark .gradient {
+.dark .radial-gradient {
   background: radial-gradient(ellipse at center, rgba(26, 28, 35, 0) 0%, transparent 1%, rgba(26, 28, 35, 1) 70%, rgba(26, 28, 35, 1) 100%);
   background-size: cover;
 }
+
+
+
+/* .linear-gradient {
+
+  background: linear-gradient(to bottom, rgba(233, 236, 247, 1) 0%, rgba(233, 236, 247, 0) 50%, rgba(233, 236, 247, 1) 100%);
+}
+
+.dark .linear-gradient {
+  background: linear-gradient(to bottom, rgba(26, 28, 35, 1) 0%, rgba(26, 28, 35, 0) 50%,  rgba(26, 28, 35, 1) 100%);
+} */
+
+
 
 
 
