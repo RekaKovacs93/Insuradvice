@@ -36,7 +36,7 @@ export default function Rolam() {
           <button className="shadow-neumorphic hover:scale-125 mt-5 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
           
         </div>
-        <div className="relative flex justify-end">
+        {/* <div className="relative flex justify-end">
           <div className="relative aspect-w-6 aspect-h-4 items-right">
           <div className="absolute top-0 w-full h-full flex flex-col items-center justify-center radial-gradient">
             <Image
@@ -48,7 +48,7 @@ export default function Rolam() {
             />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

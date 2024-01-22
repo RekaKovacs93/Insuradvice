@@ -18,13 +18,6 @@
   --accent-light-rgb: 0, 213, 216
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 233, 236, 247
-    --background-start-rgb: 26, 28, 35;
-    --background-end-rgb: 26, 28, 35;
-  }
-} */
 
 body {
   background-color: rgb(233, 236, 247);
@@ -207,6 +200,14 @@ nav {
 
 #card:hover #title{
   opacity: 0%;
+}
+
+#card:hover #title{
+  color: rgb(0, 213, 216);
+}
+
+.dark #card:hover #title{
+  color: rgb(255, 234, 0);
 }
 
 

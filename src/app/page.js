@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <NavBar></NavBar>
       <Hero></Hero>
-      <Rolam></Rolam>
+      {/* <Rolam></Rolam> */}
       <Eletbiztositas></Eletbiztositas>
     </main>
   )

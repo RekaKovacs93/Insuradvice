@@ -13,7 +13,7 @@ const servicesData = [
     },
     {
         title: "Befektetési egységekhez kötött életbiztosítás",
-        description: "A megtakarításos életbiztosítás egyik fajtája, nem garantált a hozam, ennek ellenére a hozampotenciál nagyobb ennél a fajta biztosításnál, mint a vegyes életbiztosításnál, ez a fajta életbiztosítás CSAK tanácsadással történhet 2021-ben Magyarországon ebből a fajátból 1.000.000 szerződés volt ilyen típusú",
+        description: "A megtakarításos életbiztosítás egyik fajtája, nem garantált a hozam, ennek ellenére a hozampotenciál nagyobb ennél a fajta biztosításnál, mint a vegyes életbiztosításnál, ez a fajta életbiztosítás CSAK tanácsadással történhet",
 
     },
     {
@@ -40,26 +40,26 @@ export default function Eletbiztositas() {
       {/* <h1 className="text-center md:text-xl md:mb-14 md:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
 
       {/* Desktop layout */}
-      <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-20 gap-y-5 items-center mx-60">
+      <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-10 gap-y-5 items-center mx-40">
         {servicesData.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="h-48 w-48 md:h-64 md:w-64 relative">
-            <div className="hexagon ">
-              {/* <Image
+            <div className="h-48 w-48 md:h-64 md:w-64 relative ">
+            {/* <div className="hexagon "> */}
+              <Image
                 src="https://cdn.pixabay.com/photo/2020/04/12/18/43/abstract-5035370_1280.jpg"
                 alt={service.title}
                 layout="fill"
-                className="rounded-lg object-cover opacity-20"
-              /> */}
-              <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
+                className="rounded-lg object-cover opacity-20 hover:border-4 dark:border-accent border-accentLight bg-light dark:bg-dark"
+              />
+              <div id="card" className="absolute hover:border-2 dark:border-accent border-accentLight  inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
-                  <h1 className="text-center text-xl  p-5">{service.title}</h1>
+                  <h1 id="hovertitle" className="text-center text-xl  p-5">{service.title}</h1>
                   <p className=" text-xs text-center px-5">{service.description}</p>
                 </div>
               </div>
 
-            </div>
+            {/* </div> */}
             </div>
           </div>
         ))}
@@ -69,7 +69,7 @@ export default function Eletbiztositas() {
       <div className="flex flex-col sm:hidden gap-10 px-10 py-5 ">
         {servicesData.map((service, index) => (
           <div key={index} className="border rounded-lg">
-            <div className="h-48 relative rounded-t-lg">
+            <div className="h-48 relative rounded-lg  dark:border-accent border-accentLight bg-light dark:bg-dark">
               {/* <Image
                 src={service.imageURL}
                 alt={service.title}
@@ -86,10 +86,11 @@ export default function Eletbiztositas() {
           </div>
         ))}
       </div>
+      <button className="mt-10 shadow-neumorphic hover:scale-125 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
 
-      <div className="flex justify-center mt-8">
+      {/* <div className="flex justify-center mt-8">
       <button className="mt-5 border-2 shadow-neumorphic dark:border-accent border-accentLight hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>
-      </div>
+      </div> */}
     </div>
   );
 }
