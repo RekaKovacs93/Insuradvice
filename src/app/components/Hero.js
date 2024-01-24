@@ -16,7 +16,7 @@ export default function Hero() {
                 <div className="absolute w-screen top-0 h-full flex flex-col items-center justify-center radial-gradient">
                     <h1 className="text-center mb-10 text-neumorphic font text-9xl my-5">INSURADVICE</h1>
                     <h1 className="text-center mb-10 text-3xl my-5">Személyes és független pénzügyi tanácsadás</h1>
-                    <button className="shadow-neumorphic hover:scale-125 mt-5 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
+                    <button className="shadow-neumorphic hover:scale-110 mt-5 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
                 </div>
             </div>
             {/* Mobile and Tablet Layout */}
@@ -27,7 +27,7 @@ export default function Hero() {
                     layout="fill"
                     objectFit="cover"
                     className="opacity-10"
-                />ç
+                />
                 <div className="absolute top-0 left-0 w-full h-full bg-customBlack bg-opacity-70 flex flex-col items-center justify-center text-center px-14">
                     <h1 className="text-2xl mb-6"><b>Üdvözöllek az <h1 className="font text-5xl my-5">INSURADVICE</h1> honlapján!</b></h1>
                     {/* <p className="text-white text- px-4">Fedezze fel a Mindenkinek Kell Egy Otthon kivételes szolgáltatásait, és találja meg álmai otthonát velünk! Eladná ingatlanát vagy vásárolna? Forduljon hozzánk bizalommal!</p> */}

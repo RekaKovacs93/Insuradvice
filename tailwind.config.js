@@ -26,7 +26,7 @@ module.exports = {
         dark: 'rgb(26, 28, 35)',
         light: 'rgb(233, 236, 247)',
         accent: 'rgb(255, 234, 0)',
-        accentLight: "rgb(0, 213, 216)"
+        accentLight: "rgb(248, 184, 48)"
       },
     },
   },
