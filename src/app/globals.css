@@ -22,14 +22,14 @@
 body {
   background-color: rgb(233, 236, 247);
   color: rgb(26, 28, 35);
-  letter-spacing: "wider";
-  /* transition: background 0.25s ease-in-out; */
+  --accent: rgb(0, 213, 216)
+ 
 }
 
 body.dark {
   background-color: rgb(26, 28, 35); /* Dark background color */
   color: rgb(233, 236, 247); /* Light text color */
-  /* border-color: var(--accent-dark-rgb); */
+  --accent: rgb(255, 234, 0)
 }
 
 /* 
@@ -79,7 +79,7 @@ body:not(.dark-mode) {
   transition:  0.4s ease-in-out;
 }
 body.dark #hover-underline::after{
-  background-color: rgb(255, 234, 0);; /* Change this to your desired underline color */
+  background-color: rgb(255, 234, 0); /* Change this to your desired underline color */
 }
 
 #hover-underline:hover::after {
@@ -201,15 +201,6 @@ nav {
   opacity: 0%;
 }
 
- /* #card:hover #title{
-  color: rgb(0, 213, 216);
-} */
-
-.hexagon:hover{
-  margin:20px;
-}
-
-
 
 .hexagon {
     height: 250px;
@@ -229,17 +220,15 @@ nav {
         
         
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        transition: transform 0.3s ease-in-out;
+        transition: filter 0.5s ease-in-out;
+        
     }
-    &:hover {
-      transform: scale(1.2);
-      
-     }
+
      
     }
 
 .dark .hexagon {
-      filter: drop-shadow(-2px 7px 10px rgba(0, 0, 0, 0.5));
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
       
       
       &::before {
@@ -250,6 +239,10 @@ nav {
           
           
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-      }}
+      }
+
+      }
+
+      
   
   
