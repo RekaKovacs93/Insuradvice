@@ -12,15 +12,15 @@
 
 :root {
   --foreground-rgb: 60, 62, 66;
-  --background-start-rgb: 233, 236, 247
-  --background-end-rgb: 233, 236, 247
+  --background-start-rgb: 231, 231, 231
+  --background-end-rgb: 231, 231, 231
   --accent-dark-rgb: 255, 234, 0;
   --accent-light-rgb: 0, 213, 216
 }
 
 
 body {
-  background-color: rgb(233, 236, 247);
+  background-color: rgb(231, 231, 231);
   color: rgb(26, 28, 35);
   --accent: rgba(248, 184, 48, 1);
   --accent50: rgba(248, 184, 48, 0.2);
@@ -31,7 +31,7 @@ body {
 
 body.dark {
   background-color: rgb(26, 28, 35); /* Dark background color */
-  color: rgb(233, 236, 247); /* Light text color */
+  color: rgb(231, 231, 231); /* Light text color */
   --accent: rgba(255, 234, 0, 1);
   --accent50: rgba(255, 234, 0, 0.2);
   --hexshadow: rgba(0, 0, 0, 0.5);
@@ -98,7 +98,7 @@ body.dark #hover-underline::after{
 nav {
   /* font-family: "Orbitron"; */
   font-weight: 100;
-  /* background-color: rgb(233, 236, 247); */
+  /* background-color: rgb(231, 231, 231); */
 }
 
 /* .gradient-overlay {
@@ -109,11 +109,11 @@ nav {
   height: 100%;
   background: radial-gradient(
     ellipse at center,
-    rgba(233, 236, 247, 0.9) 0%,
-    rgba(233, 236, 247, 0.6) 25%,
-    rgba(233, 236, 247, 0.4) 50%,
-    rgba(233, 236, 247, 0.2) 75%,
-    rgba(233, 236, 247, 0) 100%
+    rgba(231, 231, 231, 0.9) 0%,
+    rgba(231, 231, 231, 0.6) 25%,
+    rgba(231, 231, 231, 0.4) 50%,
+    rgba(231, 231, 231, 0.2) 75%,
+    rgba(231, 231, 231, 0) 100%
   );
 }
 
@@ -147,7 +147,7 @@ nav {
 
 
 .radial-gradient {
-  background: radial-gradient(ellipse at center, rgba(233, 236, 247, 0) 0%, transparent 1%, rgba(233, 236, 247, 1) 70%, rgba(233, 236, 247, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(231, 231, 231, 0) 0%, transparent 1%, rgba(231, 231, 231, 1) 70%, rgba(231, 231, 231, 1) 100%);
   background-size: cover;
 }
 
@@ -160,7 +160,7 @@ nav {
 
 /* .linear-gradient {
 
-  background: linear-gradient(to bottom, rgba(233, 236, 247, 1) 0%, rgba(233, 236, 247, 0) 50%, rgba(233, 236, 247, 1) 100%);
+  background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(231, 231, 231, 0) 50%, rgba(231, 231, 231, 1) 100%);
 }
 
 .dark .linear-gradient {
@@ -174,23 +174,45 @@ nav {
 
 .shadow-neumorphic {
   box-shadow: 5px 5px 10px #b8c4ce,
-  -5px -5px 10px rgb(233, 236, 247),
-  2px 2px 2px 0px rgb(233, 236, 247) inset,
-  -2px -2px 2px 0px #b8c4ce inset
+  -5px -5px 10px rgb(231, 231, 231),
+  2px 2px 2px 0px rgb(231, 231, 231) inset,
+  -2px -2px 2px 0px #b8c4ce inset;
+  
 }
+
+.shadow-neumorphic-inverse {
+  box-shadow: 
+  5px 5px 10px rgb(237, 236, 236),
+  5px 5px 10px #cfd7de inset;
+}
+
+
 
 .dark .shadow-neumorphic {
   box-shadow: 5px 5px 10px rgb(0, 0, 0),
   -5px -5px 10px rgb(48, 51, 58),
   2px 2px 2px 0px rgb(48, 51, 58) inset,
-  -2px -2px 2px 0px rgb(0, 0, 0) inset
+  -2px -2px 2px 0px rgb(0, 0, 0) inset;
+  /* transition: box-shadow 1s ease; */
 }
 
-.text-neumorphic {
-  text-shadow: 5px 5px 10px #b8c4ce,
-  -5px -5px 10px rgb(233, 236, 247)
+.dark .shadow-neumorphic-inverse {
+  box-shadow: 
+  5px 5px 10px rgb(48, 51, 58),
+  5px 5px 10px rgb(0, 0, 0) inset;
   
 }
+
+
+
+
+.text-neumorphic {
+  text-shadow: 5px 5px 10px #cfd7de,
+  -5px -5px 10px rgb(231, 231, 231)
+  
+}
+
+
 
 .dark .text-neumorphic {
   text-shadow: 5px 5px 10px rgb(0, 0, 0),
@@ -201,6 +223,8 @@ nav {
 #card:hover #desc{
   opacity: 100%;
 }
+
+
 
 #card:hover #title{
   opacity: 0%;
@@ -221,7 +245,7 @@ nav {
         top: 0;
         left: 0;
         background: linear-gradient(-120deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
-              linear-gradient(-120deg, rgb(227, 232, 250) 0%, rgb(233, 236, 247) 100%);
+              linear-gradient(-120deg, rgb(227, 232, 250) 0%, rgb(231, 231, 231) 100%);
         
         
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -246,10 +270,34 @@ nav {
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       }
 
-      }
+}
 
-      
-      .family {
-        fill: var(--accent);
-      }
   
+
+.growing {
+
+  box-shadow: 5px 5px 10px #b8c4ce,
+  -5px -5px 10px rgb(231, 231, 231),
+  2px 2px 2px 0px rgb(231, 231, 231) inset,
+  -2px -2px 2px 0px #b8c4ce inset;
+  
+  /* transition: box-shadow 5s; */
+}
+
+.growing:hover {
+
+  box-shadow: 
+  5px 5px 10px rgb(237, 236, 236),
+  5px 5px 10px #cfd7de inset;
+  transition: box-shadow 5s;
+  
+}
+
+.dark .growing:hover {
+
+  box-shadow: 
+  5px 5px 10px rgb(48, 51, 58),
+  5px 5px 10px rgb(0, 0, 0) inset;
+  transition: box-shadow 5s;
+
+}

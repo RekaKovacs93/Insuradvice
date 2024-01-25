@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Eletbiztositas from './components/Eletbiztositas'
 import Rolam from './components/Rolam'
 import Statisztika from './components/Statisztika'
+import Biztositasok from './components/Biztositasok'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero></Hero>
       <Rolam></Rolam>
       <Statisztika></Statisztika>
+      <Biztositasok></Biztositasok>
       <Eletbiztositas></Eletbiztositas>
     </main>
   )
