@@ -280,8 +280,24 @@ nav {
   -5px -5px 10px rgb(231, 231, 231),
   2px 2px 2px 0px rgb(231, 231, 231) inset,
   -2px -2px 2px 0px #b8c4ce inset;
+
+  background: linear-gradient(-120deg, rgba(231, 231, 231, 0.8) 0%, rgba(231, 231, 231, 0) 100%),
+              linear-gradient(-120deg, rgb(227, 228, 232) 0%, rgb(231, 231, 231) 100%);
   
-  /* transition: box-shadow 5s; */
+  
+}
+
+.dark .growing {
+
+  box-shadow: 5px 5px 10px rgb(0, 0, 0),
+  -5px -5px 10px rgb(48, 51, 58),
+  2px 2px 2px 0px rgb(48, 51, 58) inset,
+  -2px -2px 2px 0px rgb(0, 0, 0) inset;
+
+  background: linear-gradient(-120deg, rgba(22, 25, 30, 0.8) 0%, rgba(26, 28, 35, 0) 100%),
+  linear-gradient(-120deg, rgb(22, 25, 30) 0%, rgb(26, 28, 35) 100%);
+  
+
 }
 
 .growing:hover {
@@ -290,6 +306,7 @@ nav {
   5px 5px 10px rgb(237, 236, 236),
   5px 5px 10px #cfd7de inset;
   transition: box-shadow 5s;
+
   
 }
 

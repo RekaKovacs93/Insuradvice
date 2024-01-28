@@ -105,7 +105,7 @@ function toggleDarkMode() {
             </svg>
           </label>
 
-          <div className={`menu fixed top-0 bg-inherit right-0 w-full h-full z-20 px-5 py-10 transform transition-transform ease-in-out duration-1600 ${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
+          <div className={`menu fixed top-0 bg-light dark:bg-dark right-0 w-full h-full z-20 px-5 py-10 transform transition-transform ease-in-out duration-1600 ${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
 
             <button onClick={closeMenu} className="fixed top-0 right-1 px-5 py-5 text-xs">X  Bezárás</button>
             <Link href="/#about" onClick={closeMenu} className="block pb-2 py-5 px-2 border-b">
@@ -128,9 +128,9 @@ function toggleDarkMode() {
           />
           <label
             htmlFor="darkModeToggle"
-            className="cursor-pointer relative w-11 h-6 flex items-center shadow-md justify-between bg-gray-600 dark:bg-gray-200 opacity-75 rounded-full p-1"
+            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between rounded-full p-1"
           >
-            <div className="w-5 h-5 p-2 rounded-full bg-white dark:bg-slate-800 shadow-md  duration-300 relative z-0">
+            <div className="w-5 h-5 p-2 shadow-md rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
     <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
     <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
   </div>

@@ -55,6 +55,47 @@ const row3 = [
 
 ];
 
+const allrows =[
+    {
+        title: "Kockázati életbiztosítás",
+        description: "Más néven haláleseti életbiztosítás: a biztosítótársaság meghatározott díj ellenében kötelezettséget vállal arra a szerződőnek, hogy a biztosított halála esetén a kedvezményezettnek kifizeti a haláleseti/biztosítási összeget.",
+
+    },
+
+
+    {
+        title: "Befektetési életbiztosítás",
+        description: "A megtakarításos életbiztosítás egyik fajtája, nem garantált a hozam, ennek ellenére a hozampotenciál nagyobb ennél a fajta biztosításnál, mint a vegyes életbiztosításnál, ez a fajta életbiztosítás CSAK tanácsadással történhet",
+
+    },
+    {
+        title: "Euróalapú megtakarításos életbiztosítás",
+        description: "Annak ajánlom, aki szeretne értékvédelmet a megtakarításának és a vásárlóértékének növelése a megtakarítási idő alatt",
+
+    },
+    {
+        title: "Nyugdíj biztosítás",
+        description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
+        
+    },
+    {
+        title: "Megtakarítással összekötött életbiztosítás",
+        description: "Abban különbözik a kockázati életbiztosítástól, hogy nem csak halálesetre fizet, hanem rokkantsági térítést is, illetve ellátnak befektetés általi tőkegyarapítást is.",
+
+    },
+    {
+        title: "Csoportos életbiztosítás",
+        description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
+        
+    },
+    {
+        title: "Vegyes életbiztosítás",
+        description: "Megtakarításos életbiztosítás másik fajtája, garantált kamat, ami egy megadott értéknél lehet több, de kevesebb sosem. 2021-ben 424.528 ilyen szerződés talált gazdára.",
+
+    },
+
+]
+
 export default function Biztositasok() {
 
 
@@ -62,14 +103,14 @@ export default function Biztositasok() {
 
   return (
     <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center  text-5xl px-10 md:py-5 py-3 my-20">Ismerd meg Öngondkoskodási formáinkat</h1>
+      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 my-20">Ismerd meg Öngondkoskodási formáinkat</h1>
       {/* <h1 className="text-center md:text-xl md:mb-14 md:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
 
       {/* Desktop layout */}
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row1.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative shadow-neumorphic w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-full growing">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
@@ -84,7 +125,7 @@ export default function Biztositasok() {
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row2.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative shadow-neumorphic w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-full growing">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
@@ -100,7 +141,7 @@ export default function Biztositasok() {
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row3.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative shadow-neumorphic w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-full growing">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
@@ -117,23 +158,18 @@ export default function Biztositasok() {
       
 
       {/* Mobile layout */}
-      <div className="flex flex-col sm:hidden gap-10 px-10 py-5 ">
-        {row1.map((service, index) => (
-          <div key={index} className="border rounded-lg">
-            <div className="h-48 relative rounded-lg  dark:border-accent border-accentLight bg-light dark:bg-dark">
-              {/* <Image
-                src={service.imageURL}
-                alt={service.title}
-                layout="fill"
-                className="object-cover"
-              /> */}
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-2xl">
+      <div className="flex flex-col sm:hidden gap-5 py-5 ">
+        {allrows.map((service, index) => (
+          <div key={index}>
+
+              <div className="p-5 rounded-lg shadow-neumorphic-inverse items-center justify-center text-center text-2xl">
                 {service.title}
-              </div>
-            </div>
-            <div className="text-center my-2 px-4">
+                <div className="text-center my-2">
               <p className="text-base">{service.description}</p>
             </div>
+              </div>
+            {/* </div> */}
+            
           </div>
         ))}
       </div>

@@ -12,13 +12,13 @@ import Biztositasok from './components/Biztositasok'
 export default function Home() {
   
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between md:p-24 p-10">
       <NavBar></NavBar>
       <Hero></Hero>
       <Rolam></Rolam>
       <Statisztika></Statisztika>
       <Biztositasok></Biztositasok>
-      <Eletbiztositas></Eletbiztositas>
+      {/* <Eletbiztositas></Eletbiztositas> */}
     </main>
   )
 }

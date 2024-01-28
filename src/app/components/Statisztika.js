@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Statisztika () {
     return (
         <div className="mb-20">
-            <h1 className="text-5xl mb-10">Tudtad?</h1>
-            <div className="flex gap-x-5">
+            <h1 className="md:text-5xl text-3xl mb-10 text-center">Tudtad?</h1>
+            <div className="flex gap-5 flex-wrap justify-center ">
                 <div className="shadow-neumorphic-inverse px-5 rounded-lg flex justify-center items-center w-72">
                     <svg xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 375 374.999991" height="80" preserveAspectRatio="xMidYMid meet" version="1.0">
                         <g clip-path="url(#combinedClipPath)" fill={`var(--accent)`}>
