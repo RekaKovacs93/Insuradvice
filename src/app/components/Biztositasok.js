@@ -103,7 +103,7 @@ export default function Biztositasok() {
 
   return (
     <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 my-20">Ismerd meg Öngondkoskodási formáinkat</h1>
+      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Ismerd meg Öngondkoskodási formáinkat</h1>
       {/* <h1 className="text-center md:text-xl md:mb-14 md:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
 
       {/* Desktop layout */}

@@ -48,8 +48,6 @@ body:not(.dark-mode) {
   transform: translateX(75%); /* Move the toggle to the right for dark mode */
 }
 
-
-
 #darkModeToggle:checked + label .fa-moon {
   display: inline-block; 
 }
@@ -65,6 +63,30 @@ body:not(.dark-mode) {
 #darkModeToggle:not(:checked) + label .fa-sun {
   display: inline-block; 
 }
+
+
+
+#darkModeToggleMobile:checked + label .w-5 {
+  transform: translateX(75%); /* Move the toggle to the right for dark mode */
+}
+
+#darkModeToggleMobile:checked + label .fa-moon {
+  display: inline-block; 
+}
+
+#darkModeToggleMobile:checked + label .fa-sun {
+  display: none; 
+}
+
+#darkModeToggleMobile:not(:checked) + label .fa-moon {
+  display: none; 
+}
+
+#darkModeToggleMobile:not(:checked) + label .fa-sun {
+  display: inline-block; 
+}
+
+
 
 #hover-underline {
   position: relative;

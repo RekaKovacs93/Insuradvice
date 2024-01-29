@@ -122,12 +122,12 @@ function toggleDarkMode() {
             </Link>
             <input
             type="checkbox"
-            id="darkModeToggle"
+            id="darkModeToggleMobile"
             className="hidden"
             onChange={toggleDarkMode}
           />
           <label
-            htmlFor="darkModeToggle"
+            htmlFor="darkModeToggleMobile"
             className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between rounded-full p-1"
           >
             <div className="w-5 h-5 p-2 shadow-md rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
