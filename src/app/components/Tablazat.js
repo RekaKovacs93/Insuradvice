@@ -1,7 +1,7 @@
 export default function Tablazat () {
     return(
-        <div className="w-full md:mx-20 mb-20">
-        <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Nyugdíj megtajarítás</h1>
+        <div className="w-full md:mx-40 mb-20">
+        <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Nyugdíj megtakarítás</h1>
         <div className="shadow-neumorphic-inverse rounded-lg flex flex-col justify-center">
             
             <table className=" rounded-lg items-center my-10 mx-20">
