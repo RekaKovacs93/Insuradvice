@@ -110,7 +110,7 @@ export default function Biztositasok() {
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row1.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-lg growing mb-10">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
@@ -125,7 +125,7 @@ export default function Biztositasok() {
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row2.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-lg growing mb-10">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
@@ -141,7 +141,7 @@ export default function Biztositasok() {
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row3.map((service, index) => (
           <div key={index} className=" items-center ">
-            <div className="relative w-60 h-60 rounded-full growing">
+            <div className="relative w-60 h-60 rounded-lg growing">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">

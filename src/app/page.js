@@ -7,6 +7,7 @@ import Eletbiztositas from './components/Eletbiztositas'
 import Rolam from './components/Rolam'
 import Statisztika from './components/Statisztika'
 import Biztositasok from './components/Biztositasok'
+import Tablazat from './components/Tablazat'
 
 
 export default function Home() {
@@ -17,7 +18,9 @@ export default function Home() {
       <Hero></Hero>
       <Rolam></Rolam>
       <Statisztika></Statisztika>
+      <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
+
       {/* <Eletbiztositas></Eletbiztositas> */}
     </main>
   )
