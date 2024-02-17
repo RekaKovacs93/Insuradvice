@@ -3,11 +3,11 @@
 import Image from 'next/image'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
-import Eletbiztositas from './components/Eletbiztositas'
 import Rolam from './components/Rolam'
 import Statisztika from './components/Statisztika'
 import Biztositasok from './components/Biztositasok'
 import Tablazat from './components/Tablazat'
+import Metodus from './components/Metodus'
 
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
       <Rolam></Rolam>
       <Statisztika></Statisztika>
       <Tablazat></Tablazat>
+      <Metodus></Metodus>
       <Biztositasok></Biztositasok>
 
       {/* <Eletbiztositas></Eletbiztositas> */}
