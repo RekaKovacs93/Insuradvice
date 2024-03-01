@@ -108,7 +108,7 @@ function toggleDarkMode() {
           <div className={`menu fixed top-0 bg-light dark:bg-dark right-0 w-full h-full z-20 px-5 py-10 transform transition-transform ease-in-out duration-1600 ${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
 
             <button onClick={closeMenu} className="fixed top-0 right-1 px-5 py-5 text-xs">X  Bezárás</button>
-            <Link href="/#about" onClick={closeMenu} className="block pb-2 py-5 px-2 border-b">
+            <Link href="/#rolam" onClick={closeMenu} className="block pb-2 py-5 px-2 border-b">
               RÓLAM
             </Link>
             <Link href="./elado" onClick={closeMenu} className="block pb-2 py-5 px-2 border-b">

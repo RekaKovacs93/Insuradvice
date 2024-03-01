@@ -8,7 +8,7 @@ import Statisztika from './components/Statisztika'
 import Biztositasok from './components/Biztositasok'
 import Tablazat from './components/Tablazat'
 import Metodus from './components/Metodus'
-import Metodus_copy from './components/Metodus_copy'
+
 
 
 export default function Home() {
@@ -21,7 +21,6 @@ export default function Home() {
       <Statisztika></Statisztika>
       <Tablazat></Tablazat>
       <Metodus></Metodus>
-      <Metodus_copy></Metodus_copy>
       <Biztositasok></Biztositasok>
 
       {/* <Eletbiztositas></Eletbiztositas> */}
