@@ -8,6 +8,7 @@ import Statisztika from './components/Statisztika'
 import Biztositasok from './components/Biztositasok'
 import Tablazat from './components/Tablazat'
 import Metodus from './components/Metodus'
+import Gyermek from './components/Gyermek'
 
 
 
@@ -18,10 +19,11 @@ export default function Home() {
       <NavBar></NavBar>
       <Hero></Hero>
       <Rolam></Rolam>
+      <Metodus></Metodus>
       <Statisztika></Statisztika>
       <Tablazat></Tablazat>
-      <Metodus></Metodus>
       <Biztositasok></Biztositasok>
+      <Gyermek></Gyermek>
 
       {/* <Eletbiztositas></Eletbiztositas> */}
     </main>
