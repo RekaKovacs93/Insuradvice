@@ -43,7 +43,7 @@ export default function Gyermek () {
                     <h1 className="pt-5 text-center"><p><b className="text-accentLight text-xl dark:text-accent">Hobbi</b></p>táborok, különórák</h1>
                 </div>
             </div>
-            <div className="shadow-neumorphic-inverse rounded-lg py-10 mt-20 flex flex-col justify-center items-center">
+            <div className="lg:shadow-neumorphic-inverse rounded-lg py-10 mt-20 flex flex-col justify-center items-center">
                 {/* <p className="text-center lg:mx-20">Az előbbi csak néhány példa. De ha összeadsz néhány gyakori kiadási tételt, amire egy fiatal felnőttnek szüksége lehet – kezdve a különóráktól a ruházkodáson át a mobiltelefonokig – könnyen beláthatod, hogy jobb hosszú évek alatt félretenni ezekre a kiadásokra, mint kockáztatni, hogy ne legyen éppen elég pénz az adott célra.</p> */}
                 <h1 className="text-center mb-10 text-3xl text-accentLight dark:text-accent">Azonban ne ess kétségbe!</h1>
                 <p className="text-center lg:mx-20">A gyermek megtakarítások lehetővé teszik, hogy időben felkészülj a váratlan helyzetekre és elősegítsd gyermeked önálló életkezdését. Folyamatosan félrerakhatod pénzt számára, apránként, folyamatosan, olyan mértékben, hogy ne nehezítse a mindennapi életet, az alapvető családi anyagi biztonságot, hogy könnyebben boldoguljon az egyetemi évek alatt vagy hogy  támogatást kapjon az önálló életkezdéshez és stabil alapokkal induljon neki a saját útjának.</p>
