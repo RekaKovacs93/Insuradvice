@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <div className="relative w-screen">
             {/* Computer Layout */}
-            <div className="w-screen relative hidden md:block items-center">
+            <div className="w-screen relative hidden lg:block items-center">
                 <Image
                     src="https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg"
                     alt="Geometric Background"
@@ -20,7 +20,7 @@ export default function Hero() {
                 </div>
             </div>
             {/* Mobile and Tablet Layout */}
-            <div className="h-screen relative md:hidden flex items-center">
+            <div className="h-screen relative lg:hidden flex items-center">
                 <Image
                     src="https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg"
                     alt="Geometric Background"

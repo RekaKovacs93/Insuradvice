@@ -49,23 +49,23 @@ function toggleDarkMode() {
 
   return (
     <nav className={`fixed top-0 w-full z-10 transition-opacity duration-500 fade-in ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
-      <div className="flex bg-light dark:bg-dark items-center justify-between px-10 md:px-8 py-3 md:py-6">
+      <div className="flex bg-light dark:bg-dark items-center justify-between px-10 lg:px-8 py-3 lg:py-6">
       {/* <div > */}
         <Link href="/" className="font text-3xl">
           <h1>INSURADVICE</h1>
         </Link>
 
-        <div className="hidden md:flex flex-grow items-center justify-end space-x-8 text-lg">
-          <Link id="hover-underline" href="/" onClick={closeMenu} className="block md:inline-block mt-4 md:mt-0">
+        <div className="hidden lg:flex flex-grow items-center justify-end space-x-8 text-lg">
+          <Link id="hover-underline" href="/" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             RÓLAM
           </Link>
-          <Link id="hover-underline" href="./elado" onClick={closeMenu} className="block md:inline-block mt-4 md:mt-0">
+          <Link id="hover-underline" href="./elado" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             BIZTOSÍTÁS
           </Link>
-          <Link id="hover-underline" href="./vevo" onClick={closeMenu} className="block md:inline-block mt-4 md:mt-0">
+          <Link id="hover-underline" href="./vevo" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             BEFEKTETÉS
           </Link>
-          <Link id="hover-underline" href="./kapcsolat" onClick={closeMenu} className="block md:inline-block mt-4 md:mt-0">
+          <Link id="hover-underline" href="./kapcsolat" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             KAPCSOLAT
           </Link>
           <input
@@ -76,9 +76,9 @@ function toggleDarkMode() {
           />
           <label
             htmlFor="darkModeToggle"
-            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between rounded-full p-1"
+            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-lg justify-between rounded-full p-1"
           >
-            <div className="w-5 h-5 p-2 shadow-md rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
+            <div className="w-5 h-5 p-2 shadow-lg rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
     <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
     <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
   </div>
@@ -89,7 +89,7 @@ function toggleDarkMode() {
 
         
           {/* Mobile */}
-        <div className="md:hidden relative">
+        <div className="lg:hidden relative">
           <input type="checkbox" id="toggle" className="hidden" />
 
           <label htmlFor="toggle" className="relative z-10">
@@ -128,9 +128,9 @@ function toggleDarkMode() {
           />
           <label
             htmlFor="darkModeToggleMobile"
-            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-md justify-between rounded-full p-1"
+            className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-lg justify-between rounded-full p-1"
           >
-            <div className="w-5 h-5 p-2 shadow-md rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
+            <div className="w-5 h-5 p-2 shadow-lg rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
     <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
     <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
   </div>
