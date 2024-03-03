@@ -49,7 +49,7 @@ function toggleDarkMode() {
 
   return (
     <nav className={`fixed top-0 w-full z-10 transition-opacity duration-500 fade-in ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
-      <div className="flex bg-light dark:bg-dark items-center justify-between px-10 lg:px-8 py-3 lg:py-6">
+      <div className="flex bg-light dark:bg-dark shadow-neumorphic items-center justify-between px-10 lg:px-8 py-3 lg:py-6">
       {/* <div > */}
         <Link href="/" className="font text-3xl">
           <h1>INSURADVICE</h1>

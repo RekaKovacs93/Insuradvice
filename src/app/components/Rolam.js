@@ -7,7 +7,7 @@ export default function Rolam() {
       <div className="lg:w-2/5 lg:mx-20 justify-center">
         <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block">Vadász Róbert</h1>
       </div>
-      <div className="lg:mx-40 mx-10 lg:w-3/5 flex flex-col justify-center items-center shadow-neumorphic-inverse lg:p-20 p-5 rounded-lg">
+      <div className="lg:mx-40 mx-10 lg:w-3/5 flex flex-col justify-center items-center lg:p-20 p-5 rounded-lg">
         <p className="text-3xl text-center mb-10">Üdvözöllek az Insuradvice honlapján!</p>
         <p className="lg:text-xl text-center">Ha itt vagy, akkor valószínűleg te is feltetted már magadnak az alábbi kérdéseket: 
         <b>&quot;Hogyan kezeljem tudatosan pénzügyeimet?</b>
