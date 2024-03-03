@@ -98,11 +98,11 @@ export default function Biztositasok() {
 
   return (
     <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Életbiztosítások</h1>
-      {/* <h1 className="text-center md:text-xl md:mb-14 md:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
+      <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások</h1>
+      {/* <h1 className="text-center lg:text-xl lg:mb-14 lg:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
 
       {/* Desktop layout */}
-      <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
+      <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center lg:mx-40">
         {allrows.map((service, index) => (
           <div key={index} className=" items-center ">
             <div className="relative w-60 h-60 rounded-lg growing mb-10">

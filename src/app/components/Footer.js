@@ -1,6 +1,6 @@
-export default function Garancia () {
+export default function Footer () {
     return (
-        <div className="my-40 ">
+        <div className="w-80">
             
 
             <div className="shadow-neumorphic-inverse rounded-lg py-10 mt-20 flex flex-col justify-center">

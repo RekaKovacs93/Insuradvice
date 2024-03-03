@@ -25,7 +25,7 @@ export default function Home() {
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>
-      <Garancia></Garancia>
+      <div id="contact"><Garancia></Garancia></div>
 
       {/* <Eletbiztositas></Eletbiztositas> */}
     </main>
