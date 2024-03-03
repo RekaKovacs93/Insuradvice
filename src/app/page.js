@@ -9,6 +9,7 @@ import Biztositasok from './components/Biztositasok'
 import Tablazat from './components/Tablazat'
 import Metodus from './components/Metodus'
 import Gyermek from './components/Gyermek'
+import Garancia from './components/Garancia'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>
+      <Garancia></Garancia>
 
       {/* <Eletbiztositas></Eletbiztositas> */}
     </main>

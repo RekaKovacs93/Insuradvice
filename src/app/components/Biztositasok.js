@@ -74,11 +74,6 @@ const allrows =[
 
     },
     {
-        title: "Nyugdíj biztosítás",
-        description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
-        
-    },
-    {
         title: "Megtakarítással összekötött életbiztosítás",
         description: "Abban különbözik a kockázati életbiztosítástól, hogy nem csak halálesetre fizet, hanem rokkantsági térítést is, illetve ellátnak befektetés általi tőkegyarapítást is.",
 
@@ -103,12 +98,12 @@ export default function Biztositasok() {
 
   return (
     <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Ismerd meg Öngondkoskodási formáinkat</h1>
+      <h1 className="text-center text-3xl md:text-5xl md:px-10 md:py-5 py-3 md:my-20 my-10">Életbiztosítások</h1>
       {/* <h1 className="text-center md:text-xl md:mb-14 md:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
 
       {/* Desktop layout */}
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
-        {row1.map((service, index) => (
+        {allrows.map((service, index) => (
           <div key={index} className=" items-center ">
             <div className="relative w-60 h-60 rounded-lg growing mb-10">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
@@ -122,7 +117,7 @@ export default function Biztositasok() {
           </div>
         ))}
       </div>
-      <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
+      {/* <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row2.map((service, index) => (
           <div key={index} className=" items-center ">
             <div className="relative w-60 h-60 rounded-lg growing mb-10">
@@ -135,9 +130,9 @@ export default function Biztositasok() {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
         
-      </div>
+      {/* </div>
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center ">
         {row3.map((service, index) => (
           <div key={index} className=" items-center ">
@@ -151,9 +146,9 @@ export default function Biztositasok() {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
         
-      </div>
+      {/* </div> */}
 
       
 
@@ -173,7 +168,7 @@ export default function Biztositasok() {
           </div>
         ))}
       </div>
-      <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Tudj meg többet</a></button>
+      <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
       {/* <div className="flex justify-center mt-8">
       <button className="mt-5 border-2 shadow-neumorphic dark:border-accent border-accentLight hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>

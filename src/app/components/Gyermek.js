@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 
-export default function Statisztika () {
+export default function Gyermek () {
     return (
-        <div className="my-20">
-            <h1 className="lg:text-5xl text-3xl mb-10 text-center">Gyermek megtakarítás</h1>
-            <p className="text-center mb-10">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
+        <div className="my-40 ">
+            <h1 className="lg:text-5xl text-3xl mb-20 text-center">Gyermek megtakarítás</h1>
+            <p className="text-center mb-20 lg:mx-20">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
             <div className="flex gap-3 flex-wrap justify-center ">
                 
 
@@ -42,6 +42,14 @@ export default function Statisztika () {
 
                     <h1 className="pt-5 text-center"><p><b className="text-accentLight text-xl dark:text-accent">Hobbi</b></p>táborok, különórák</h1>
                 </div>
+            </div>
+            <div className="shadow-neumorphic-inverse rounded-lg py-10 mt-20 flex flex-col justify-center items-center">
+                {/* <p className="text-center lg:mx-20">Az előbbi csak néhány példa. De ha összeadsz néhány gyakori kiadási tételt, amire egy fiatal felnőttnek szüksége lehet – kezdve a különóráktól a ruházkodáson át a mobiltelefonokig – könnyen beláthatod, hogy jobb hosszú évek alatt félretenni ezekre a kiadásokra, mint kockáztatni, hogy ne legyen éppen elég pénz az adott célra.</p> */}
+                <h1 className="text-center mb-10 text-3xl text-accentLight dark:text-accent">Azonban ne ess kétségbe!</h1>
+                <p className="text-center lg:mx-20">A gyermek megtakarítások lehetővé teszik, hogy időben felkészülj a váratlan helyzetekre és elősegítsd gyermeked önálló életkezdését. Folyamatosan félrerakhatod pénzt számára, apránként, folyamatosan, olyan mértékben, hogy ne nehezítse a mindennapi életet, az alapvető családi anyagi biztonságot, hogy könnyebben boldoguljon az egyetemi évek alatt vagy hogy  támogatást kapjon az önálló életkezdéshez és stabil alapokkal induljon neki a saját útjának.</p>
+                <p className="text-center lg:mx-20 mt-10"><b>Segítek tisztán látni, hogy mennyit tudsz biztonságosan havonta félretenni, hogy később ne kelljen hozzányúlni és így veszteséget szenvedni.</b></p>
+                <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
+
             </div>
         </div>
     )
