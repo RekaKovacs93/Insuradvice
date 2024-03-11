@@ -8,6 +8,7 @@ import Metodus from './components/Metodus'
 import Gyermek from './components/Gyermek'
 import Garancia from './components/Garancia'
 import Footer from './components/Footer'
+import Cegek from './components/Cegek'
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero></Hero>
       <Rolam></Rolam>
       <Metodus></Metodus>
+      <Cegek></Cegek>
       <Statisztika></Statisztika>
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
