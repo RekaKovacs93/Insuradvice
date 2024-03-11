@@ -49,7 +49,7 @@ function toggleDarkMode() {
 
   return (
     <nav className={`fixed top-0 w-full z-10 transition-opacity duration-500 fade-in ${visible ? 'opacity-100' : 'opacity-0 -translate-y-full'}`}>
-      <div className="flex bg-light dark:bg-dark shadow-neumorphic items-center justify-between px-10 lg:px-8 py-3 lg:py-6">
+      <div className="flex bg-light dark:bg-dark items-center justify-between px-10 lg:px-8 py-3 lg:py-6">
       {/* <div > */}
         <Link href="/" className="font text-3xl">
           <h1>INSURADVICE</h1>
@@ -73,16 +73,16 @@ function toggleDarkMode() {
             id="darkModeToggle"
             className="hidden"
             onChange={toggleDarkMode}
-          />
-          <label
+        />
+        <label
             htmlFor="darkModeToggle"
             className="cursor-pointer border dark:border-accent border-accentLight relative w-11 h-6 flex items-center bg-dark dark:bg-light shadow-lg justify-between rounded-full p-1"
-          >
-            <div className="w-5 h-5 p-2 shadow-lg rounded-full bg-light dark:bg-dark   duration-300 relative z-0">
-    <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
-    <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
-  </div>
-          </label>
+        >
+        <div className="w-5 h-5 p-2 shadow-lg rounded-full bg-light dark:bg-dark duration-300 relative z-0">
+          <i className="fas fa-moon absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  duration-300 z-10"></i>
+          <i className="fas fa-sun absolute text-sm top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300 z-10"></i>
+        </div>
+        </label>
           
         {/* </div> */}
         </div>
