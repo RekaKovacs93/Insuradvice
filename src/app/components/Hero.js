@@ -6,7 +6,7 @@ export default function Hero() {
             {/* Computer Layout */}
             <div className="w-screen relative hidden lg:block items-center">
                 <Image
-                    src="https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg"
+                    src="/background-5035258_1920.jpg"
                     alt="Geometric Background"
                     layout="responsive"
                     width={2000}
@@ -22,7 +22,7 @@ export default function Hero() {
             {/* Mobile and Tablet Layout */}
             <div className="h-screen relative lg:hidden flex items-center">
                 <Image
-                    src="https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg"
+                    src="/background-5035258_1920.jpg"
                     alt="Geometric Background"
                     layout="fill"
                     objectFit="cover"
