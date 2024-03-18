@@ -1,8 +1,7 @@
 export default function Tablazat () {
     return(
         <div className="lg:w-full lg:mx-40 mx-10 mb-20">
-        <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Nyugdíj megtakarítás</h1>
-        <div className="lg:w-full px-5 lg:px-0 shadow-neumorphic-inverse rounded-lg flex flex-col justify-center items-center">
+                <div className="lg:w-full px-5 lg:px-0 shadow-neumorphic-inverse rounded-lg flex flex-col justify-center items-center">
             
             <table className="rounded-lg items-center w-4/5 my-10 lg:mx-20 justify-center">
                 <thead className="text-xl text-center">
@@ -63,6 +62,13 @@ export default function Tablazat () {
             </table>
             <p className="text-center text-sm mx-10">6%-os feltételezett hozam, 3%-os értékkövetés és 20% SZJA jóváírás mellett</p>
             <p className="text-center text-xs mb-5"><i>Forrás: nyugdijbiztositas.com</i></p>
+        </div>
+        <p className="my-20 text-center">Átfogó elemzéssel és személyre szabott tanácsokkal tudok hozzájárulni ahhoz, hogy megtaláld a
+            legmegfelelőbb megoldást nyugdíjas éveidre.
+            Ne aggódj, nem vagy egyedül ebben a helyzetben, kezdjük el még ma együtt építeni a
+            biztonságos jövődet!</p>
+        <div className="flex justify-center">
+        <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
         </div>
         </div>
     )

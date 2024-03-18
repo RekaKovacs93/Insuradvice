@@ -9,6 +9,7 @@ import Gyermek from './components/Gyermek'
 import Garancia from './components/Garancia'
 import Footer from './components/Footer'
 import Cegek from './components/Cegek'
+import Nyugdij from './components/Nugdij'
 
 
 
@@ -20,8 +21,9 @@ export default function Home() {
       <Hero></Hero>
       <Rolam></Rolam>
       <Metodus></Metodus>
-      <Cegek></Cegek>
+      {/* <Cegek></Cegek> */}
       <Statisztika></Statisztika>
+      <Nyugdij></Nyugdij>
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>

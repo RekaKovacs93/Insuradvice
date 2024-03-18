@@ -4,64 +4,24 @@ import gsap from "gsap";
 import {useEffect} from "react";
 import Image from "next/image"
 
-const row1 = [
 
+
+const allrows =[
     {
-        title: "Kockázati életbiztosítás",
-        description: "Más néven haláleseti életbiztosítás: a biztosítótársaság meghatározott díj ellenében kötelezettséget vállal arra a szerződőnek, hogy a biztosított halála esetén a kedvezményezettnek kifizeti a haláleseti/biztosítási összeget.",
-
-    },
-
-
-    {
-      title: "Befektetési életbiztosítás",
-      description: "A megtakarításos életbiztosítás egyik fajtája, nem garantált a hozam, ennek ellenére a hozampotenciál nagyobb ennél a fajta biztosításnál, mint a vegyes életbiztosításnál, ez a fajta életbiztosítás CSAK tanácsadással történhet",
-
-  },
-  
-  ]
-const row2 = [
-
-    {
-        title: "Euróalapú megtakarításos életbiztosítás",
-        description: "Annak ajánlom, aki szeretne értékvédelmet a megtakarításának és a vásárlóértékének növelése a megtakarítási idő alatt",
-  
-      },
-    {
-      title: "Nyugdíj biztosítás",
+      title: "Baleset biztosítás",
       description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
       
     },
     {
-        title: "Megtakarítással összekötött életbiztosítás",
-        description: "Abban különbözik a kockázati életbiztosítástól, hogy nem csak halálesetre fizet, hanem rokkantsági térítést is, illetve ellátnak befektetés általi tőkegyarapítást is.",
-
-    },
-
-    
-
-  ]
-const row3 = [
-    {
-        title: "Csoportos életbiztosítás",
-        description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
-        
-      },
-      {
-        title: "Vegyes életbiztosítás",
-        description: "Megtakarításos életbiztosítás másik fajtája, garantált kamat, ami egy megadott értéknél lehet több, de kevesebb sosem. 2021-ben 424.528 ilyen szerződés talált gazdára.",
-
-    },
-
-];
-
-const allrows =[
-    {
         title: "Kockázati életbiztosítás",
         description: "Más néven haláleseti életbiztosítás: a biztosítótársaság meghatározott díj ellenében kötelezettséget vállal arra a szerződőnek, hogy a biztosított halála esetén a kedvezményezettnek kifizeti a haláleseti/biztosítási összeget.",
 
     },
+    {
+      title: "Megtakarítással összekötött életbiztosítás",
+      description: "Abban különbözik a kockázati életbiztosítástól, hogy nem csak halálesetre fizet, hanem rokkantsági térítést is, illetve ellátnak befektetés általi tőkegyarapítást is.",
 
+    },
 
     {
         title: "Befektetési életbiztosítás",
@@ -73,16 +33,8 @@ const allrows =[
         description: "Annak ajánlom, aki szeretne értékvédelmet a megtakarításának és a vásárlóértékének növelése a megtakarítási idő alatt",
 
     },
-    {
-        title: "Megtakarítással összekötött életbiztosítás",
-        description: "Abban különbözik a kockázati életbiztosítástól, hogy nem csak halálesetre fizet, hanem rokkantsági térítést is, illetve ellátnak befektetés általi tőkegyarapítást is.",
 
-    },
-    {
-        title: "Csoportos életbiztosítás",
-        description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
-        
-    },
+,
     {
         title: "Vegyes életbiztosítás",
         description: "Megtakarításos életbiztosítás másik fajtája, garantált kamat, ami egy megadott értéknél lehet több, de kevesebb sosem. 2021-ben 424.528 ilyen szerződés talált gazdára.",
@@ -98,9 +50,16 @@ export default function Biztositasok() {
 
   return (
     <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások</h1>
+      <h1 className="text-center text-xl lg:text-3xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások</h1>
       {/* <h1 className="text-center lg:text-xl lg:mb-14 lg:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
-
+      <p>Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod
+        és gyermekeid vannak, fel kell készülnöd arra, hogy történhet egy nem kívánatos esemény, mint
+        egy komoly baleset, vagy haláleset. Fontos, hogy biztonságban tudhasd őket, még akkor is, ha
+        egyszer nem tudnál rájuk úgy vigyázni, mint előtte. Az életbiztosítás ebben a helyzetben jelentheti
+        a megoldást, biztosítva a családod és gyermekeid anyagi stabilitását és jövőjét. Hirtelen kieső
+        jövedelem pótlásához az életbiztosítás segíthet megőrizni a biztonságot és a stabilitást a
+        legnehezebb időkben is.</p>
+        <h1 className="text-center lg:text-xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások formái</h1>
       {/* Desktop layout */}
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center lg:mx-40">
         {allrows.map((service, index) => (
@@ -109,8 +68,8 @@ export default function Biztositasok() {
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
                 <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
                 <div id="desc" className="opacity-0">
-                  <h1 id="hovertitle" className="text-center text-lg px-10"><b>{service.title}</b></h1>
-                  <p className=" text-xs text-center px-10">{service.description}</p>
+                  <h1 id="hovertitle" className="text-center text-lg px-8 leading-5 mb-3"><b>{service.title}</b></h1>
+                  <p className=" text-xs text-center px-8">{service.description}</p>
                 </div>
               </div>
             </div>

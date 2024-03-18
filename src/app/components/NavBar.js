@@ -59,9 +59,15 @@ function toggleDarkMode() {
           <Link id="hover-underline" href="/" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             RÓLAM
           </Link>
-          <Link id="hover-underline" href="./elado" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
-            BIZTOSÍTÁS
-          </Link>
+          <span id="biztositas-link" className="block lg:inline-block mt-4 lg:mt-0 relative">
+            BIZTOSÍTÁSOK
+            <i className="fas fa-chevron-down ml-1 text-accentLight dark:text-accent"></i>
+            <div className="dropdown-menu">
+              <Link id="hover-underline-sm" href="/#nyugdij" className="block text-right text-sm m-3" >NYUGDÍJBIZTOSÍTÁS</Link>
+              <Link id="hover-underline-sm" href="/#elet" className="block text-right text-sm m-3">ÉLETBIZTOSÍTÁS</Link>
+              <Link id="hover-underline-sm" href="/#gyermek" className="block text-right text-sm m-3">GYERMEKMEGTAKARÍTÁS</Link>
+            </div>
+          </span>
           <Link id="hover-underline" href="./vevo" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             BEFEKTETÉS
           </Link>
