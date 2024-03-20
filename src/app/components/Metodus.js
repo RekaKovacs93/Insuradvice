@@ -52,7 +52,7 @@ export default function Metodus() {
             </div>
 
             
-            <div className=" lg:hidden flex justify-center w-screen h-screen px-10 pt-16 pb-40 rounded-lg items-center mb-20">
+            <div className=" lg:hidden flex justify-center w-screen min-h-screen px-10 pt-16 pb-40 rounded-lg items-center mb-20">
             {/* <div><p className='text-center lg:mb-40'>Elkötelezett vagyok az iránt, hogy minden ügyfelem számára személyre szabott megoldásokat kínáljak. Független pénzügyi tanácsadóként kapcsolatban állok több, mint 60 pénzügyi szolgáltatóval, így olyan lehetőségeket tudok ajánlani, amelyek teljes mértékben a te igényeidhez vannak igazítva. Az első találkozón felmérjük ezeket az igényeket, majd egy második találkozó alkalmával kiválasztjuk együtt a számodra legmegfelelőbb lehetőségeket. Ezek a konzultációk teljesen ingyenesek és semmilyen rejtett költséggel nem járnak.
             </p></div> */}
                 <div className='py-10 flex flex-col justify-between items-center w-2 h-screen  shadow-neumorphic-inverse-slim mt-20 rounded-lg'>
