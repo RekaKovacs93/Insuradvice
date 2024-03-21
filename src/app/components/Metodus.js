@@ -52,15 +52,16 @@ export default function Metodus() {
             </div>
 
             
-            <div className=" lg:hidden flex justify-center w-screen min-h-screen px-10 pt-16 pb-40 rounded-lg items-center mb-20">
+            <div className=" lg:hidden flex flex-col justify-center w-screen min-h-screen px-5 pt-16 pb-10 rounded-lg items-center mb-10">
             {/* <div><p className='text-center lg:mb-40'>Elkötelezett vagyok az iránt, hogy minden ügyfelem számára személyre szabott megoldásokat kínáljak. Független pénzügyi tanácsadóként kapcsolatban állok több, mint 60 pénzügyi szolgáltatóval, így olyan lehetőségeket tudok ajánlani, amelyek teljes mértékben a te igényeidhez vannak igazítva. Az első találkozón felmérjük ezeket az igényeket, majd egy második találkozó alkalmával kiválasztjuk együtt a számodra legmegfelelőbb lehetőségeket. Ezek a konzultációk teljesen ingyenesek és semmilyen rejtett költséggel nem járnak.
             </p></div> */}
-                <div className='py-10 flex flex-col justify-between items-center w-2 h-screen  shadow-neumorphic-inverse-slim mt-20 rounded-lg'>
-                <div className="mx-10 mb-10">
+            <div className="mx-10 mb-5">
                     <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-5 py-3 lg:mb-20 my-10">A tanácsadás folyamata</h1>
                     <p className='text-center lg:mb-40'>Elkötelezett vagyok az iránt, hogy minden ügyfelem számára személyre szabott megoldásokat kínáljak. Független pénzügyi tanácsadóként kapcsolatban állok több, mint 60 pénzügyi szolgáltatóval, így olyan lehetőségeket tudok ajánlani, amelyek teljes mértékben a te igényeidhez vannak igazítva. Az első találkozón felmérjük ezeket az igényeket, majd egy második találkozó alkalmával kiválasztjuk együtt a számodra legmegfelelőbb lehetőségeket. Ezek a konzultációk teljesen ingyenesek és semmilyen rejtett költséggel nem járnak.</p>
 
                 </div>
+                <div className='py-10 flex flex-col justify-between items-center w-2 h-screen  shadow-neumorphic-inverse-slim mt-20 rounded-lg'>
+   
                     <div className='relative flex justify-center items-center w-6 h-2  z-2 rounded-full bg-inherit shadow-neumorphic-slim bg-light dark:bg-dark'>
                         <div className="absolute right-8 shadow-neumorphic-slim rounded-lg p-2">
                             <h1 className=' text-center text-accentLight dark:text-accent'>Kapcsolatfelvétel</h1>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Rolam() {
   return (
   <div>
-    <div className="lg:flex w-screen block my-40">
+    <div className="lg:flex w-screen block lg:my-40 my-20">
       <div className="lg:w-2/5 lg:mx-20 justify-center">
         <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1>
       </div>
