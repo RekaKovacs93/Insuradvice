@@ -47,7 +47,7 @@ export default function Metodus() {
                         </div>
                     </div>
                 </div>
-                <button className="mt-64 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
+                <button className="mt-64 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>
 
@@ -101,7 +101,7 @@ export default function Metodus() {
                 
             </div>
             <div className="lg:hidden flex justify-center mb-20">
-            <button className="shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
+            <button className="shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>
             

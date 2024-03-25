@@ -49,17 +49,17 @@ export default function Biztositasok() {
 
 
   return (
-    <div className="flex flex-col items-center w-full justify-center min-h-screen">
-      <h1 className="text-center text-xl lg:text-3xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások</h1>
+    <div id="elet" className="flex flex-col items-center w-full justify-center min-h-screen">
+      <h1 className="text-center text-xl lg:text-3xl  my-10">Életbiztosítások</h1>
       {/* <h1 className="text-center lg:text-xl lg:mb-14 lg:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
-      <p className="text-center">Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod
+      <p className="text-center px-20 mb-20">Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod
         és gyermekeid vannak, fel kell készülnöd arra, hogy történhet egy nem kívánatos esemény, mint
         egy komoly baleset, vagy haláleset. Fontos, hogy biztonságban tudhasd őket, még akkor is, ha
         egyszer nem tudnál rájuk úgy vigyázni, mint előtte. Az életbiztosítás ebben a helyzetben jelentheti
         a megoldást, biztosítva a családod és gyermekeid anyagi stabilitását és jövőjét. Hirtelen kieső
         jövedelem pótlásához az életbiztosítás segíthet megőrizni a biztonságot és a stabilitást a
         legnehezebb időkben is.</p>
-        <h1 className="text-center lg:text-xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások formái</h1>
+        {/* <h1 className="text-center lg:text-xl lg:px-10 lg:py-5 py-3 lg:my-20 my-10">Életbiztosítások formái</h1> */}
       {/* Desktop layout */}
       <div className="hidden sm:flex flex-col sm:flex-row flex-wrap justify-center gap-x-4 items-center lg:mx-40">
         {allrows.map((service, index) => (
@@ -127,7 +127,7 @@ export default function Biztositasok() {
           </div>
         ))}
       </div>
-      <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
+      <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
       {/* <div className="flex justify-center mt-8">
       <button className="mt-5 border-2 shadow-neumorphic dark:border-accent border-accentLight hover:bg-dark hover:bg-opacity-50 font-bold py-2 px-4 rounded-full transition duration-300"><a href="/#contact">Hívjon minket most!</a></button>

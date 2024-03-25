@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Gyermek () {
     return (
-        <div className="my-40 ">
+        <div id="gyermek" className="my-40 ">
             <h1 className="lg:text-5xl text-3xl mb-20 text-center">Gyermek megtakarítás</h1>
             <p className="text-center mb-20 ">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
             <div className="flex gap-3 flex-wrap justify-center ">
@@ -56,7 +56,7 @@ export default function Gyermek () {
                     <li className="mb-2"><i>Milyen befektetői profilra jellemzőbb inkább: aktív vagy passzív?</i></li>
                 </ul>
                 <p className="text-center lg:mx-20 mt-10"><b>Segítek tisztán látni, hogy mennyit tudsz biztonságosan havonta félretenni, hogy később ne kelljen hozzányúlni és így veszteséget szenvedni.</b></p>
-                <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-full transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
+                <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>
         </div>

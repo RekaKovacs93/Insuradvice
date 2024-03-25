@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Statisztika () {
     return (
         <div className="my-20">
-            <h1 className="md:text-5xl text-3xl mb-10 text-center">Tudtad?</h1>
+            <h1 className="md:text-5xl text-3xl mb-20 text-center">Pénzügyi termékek fontossága</h1>
             <div className="flex gap-3 flex-wrap justify-center ">
                 <div className="shadow-neumorphic-inverse px-5 rounded-lg flex justify-center items-center w-72">
                     <svg xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 375 374.999991" height="80" preserveAspectRatio="xMidYMid meet" version="1.0">

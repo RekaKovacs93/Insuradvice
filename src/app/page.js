@@ -21,12 +21,13 @@ export default function Home() {
       <Hero></Hero>
       <Rolam></Rolam>
       <Metodus></Metodus>
-      {/* <Cegek></Cegek> */}
+      
       <Statisztika></Statisztika>
       <Nyugdij></Nyugdij>
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>
+      <Cegek></Cegek>
       <div id="contact"><Garancia></Garancia></div>
       <Footer></Footer>
 

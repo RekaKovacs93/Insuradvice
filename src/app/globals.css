@@ -152,37 +152,7 @@ nav {
   /* background-color: rgb(231, 231, 231); */
 }
 
-/* .gradient-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(231, 231, 231, 0.9) 0%,
-    rgba(231, 231, 231, 0.6) 25%,
-    rgba(231, 231, 231, 0.4) 50%,
-    rgba(231, 231, 231, 0.2) 75%,
-    rgba(231, 231, 231, 0) 100%
-  );
-}
 
-.dark .gradient-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(26, 28, 35, 0.9) 0%,
-    rgba(26, 28, 35, 0.6) 25%,
-    rgba(26, 28, 35, 0.4) 50%,
-    rgba(26, 28, 35, 0.2) 75%,
-    rgba(26, 28, 35, 0) 100%
-  );
-} */
 
 .inverted-image {
   filter: invert(1);
@@ -193,7 +163,7 @@ nav {
 }
 
 .bw-image {
-  filter: grayscale(100%);
+  filter: grayscale(10%);
 }
 
 
@@ -207,16 +177,6 @@ nav {
   background-size: cover;
 }
 
-
-
-/* .linear-gradient {
-
-  background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(231, 231, 231, 0) 50%, rgba(231, 231, 231, 1) 100%);
-}
-
-.dark .linear-gradient {
-  background: linear-gradient(to bottom, rgba(26, 28, 35, 1) 0%, rgba(26, 28, 35, 0) 50%,  rgba(26, 28, 35, 1) 100%);
-} */
 
 
 
@@ -421,5 +381,13 @@ nav {
   display: block;
 }
 
+
+.filter {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(64%) saturate(1330%) hue-rotate(336deg) brightness(108%) contrast(94%);
+}
+
+.dark .filter {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(41%) saturate(1563%) hue-rotate(360deg) brightness(103%) contrast(105%);
+}
 
 
