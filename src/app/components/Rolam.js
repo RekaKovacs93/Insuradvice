@@ -3,9 +3,16 @@ import Image from "next/image";
 export default function Rolam() {
   return (
   <div>
-    <div className="lg:flex w-screen block lg:my-40 my-20">
-      <div className="lg:w-2/5 lg:mx-20 justify-center">
-        <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1>
+    <div className="lg:flex w-screen block lg:my-40 mt-20 mb-10 items-center justify-center">
+      <div className=" justify-center shadow-neumorphic-inverse p-8 rounded-lg ml-10">
+        {/* <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1> */}
+        <Image
+          src="/Robi.jpg"
+          alt="Vadász Róbert Fotója"
+          width={1000}
+          height={1000}
+          className="bw-image"
+        />
       </div>
       <div className="lg:mx-20 mx-10 lg:w-3/5 flex flex-col justify-center items-center lg:p-20 p-5 rounded-lg">
         <p className="text-3xl text-center mb-10">Üdvözöllek az Insuradvice honlapján!</p>

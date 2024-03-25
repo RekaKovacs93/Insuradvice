@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Statisztika () {
     return (
-        <div className="mb-20">
+        <div className="my-20">
             <h1 className="md:text-5xl text-3xl mb-10 text-center">Tudtad?</h1>
             <div className="flex gap-3 flex-wrap justify-center ">
                 <div className="shadow-neumorphic-inverse px-5 rounded-lg flex justify-center items-center w-72">

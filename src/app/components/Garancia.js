@@ -16,8 +16,8 @@ export default function Garancia () {
                     </div>
                     <div className="shadow-neumorphic-inverse rounded-lg py-24 lg:w-3/5">
                         <h1 className="text-3xl mb-10 text-center lg:mt-0 mt-10"><b>Vadász Róbert</b></h1>
-                        <p className="text-center text-xl lg:mx-20 mx-10">+36 20 1234 123</p>
-                        <p className="text-center text-xl lg:mx-20 mx-10"><a href="mailto:email@gmail.com" className="mt-2 hover:underline hover:text-accentLight hover:dark:text-accent">email@gmail.com</a></p>
+                        <p className="text-center text-xl lg:mx-20 mx-10">+36 30 313 3067</p>
+                        <p className="text-center text-xl lg:mx-20 mx-10"><a href="mailto:vadasz.robert@grantis.hu" className="mt-2 hover:underline hover:text-accentLight hover:dark:text-accent">vadasz.robert@grantis.hu</a></p>
                     </div>
                 </div>
                 
