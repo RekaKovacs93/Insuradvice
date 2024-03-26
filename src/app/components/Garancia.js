@@ -1,9 +1,9 @@
 export default function Garancia () {
     return (
-        <div className="my-40 ">
+        <div className=" ">
             
 
-            <div className="py-10 lg:mt-20 mt-10 flex flex-col justify-center">
+            <div className=" my-10 flex flex-col justify-center">
             
             
                 <h1 className="lg:text-5xl text-3xl mb-10 text-center ">Tájékozódj és dönts tudatosan!</h1>

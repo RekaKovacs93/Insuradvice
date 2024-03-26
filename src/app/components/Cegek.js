@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Cegek () {
     return (
         <div>
-            <h1 className="md:text-5xl text-3xl my-10 text-center">Partner cégek</h1>
+            {/* <h1 className="md:text-5xl text-3xl my-10 text-center">Partner cégek</h1> */}
             <div className="flex shadow-neumorphic-inverse my-20 gap-20 px-5 w-screen items- justify-center">
 
             <Image
