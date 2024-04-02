@@ -1,10 +1,3 @@
-'use client'
-
-import gsap from "gsap";
-import {useEffect} from "react";
-import Image from "next/image"
-
-
 
 const allrows =[
     {
@@ -66,7 +59,7 @@ export default function Biztositasok() {
           <div key={index} className=" items-center ">
             <div className="relative w-60 h-60 rounded-lg growing mb-10">
               <div id="card" className="absolute inset-0 rounded-lg flex flex-col items-center justify-center">
-                <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5">{service.title}</h1>
+                <h1 id="title" className="absolute text-2xl opacity-100 text-center px-5 text-accentLight dark:text-accent">{service.title}</h1>
                 <div id="desc" className="opacity-0">
                   <h1 id="hovertitle" className="text-center text-lg px-8 leading-5 mb-3"><b>{service.title}</b></h1>
                   <p className=" text-xs text-center px-8">{service.description}</p>

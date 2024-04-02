@@ -10,6 +10,7 @@ import Garancia from './components/Garancia'
 import Footer from './components/Footer'
 import Cegek from './components/Cegek'
 import Nyugdij from './components/Nugdij'
+import Befektetes from './components/Befektetes'
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Tablazat></Tablazat>
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>
+      <Befektetes></Befektetes>
       
       <div id="contact"><Garancia></Garancia></div>
       <Cegek></Cegek>

@@ -1,0 +1,87 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1292 609" width="1314" height="649">
+	<title>Mask</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-124 705.6h1461.6v-723.84h-1461.6z"/>
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: none;stroke: #bfbfbf;stroke-linejoin: round;stroke-width: 1;stroke-dasharray: 4.000000059022568,3.000000044266926 } 
+		.s1 { fill: none;stroke: #bfbfbf;stroke-linejoin: round;stroke-width: 1.5 } 
+		.t2 { font-size: 24px;line-height: 47px;fill: #595959;font-family: "Calibri" } 
+		.t3 { font-size: 24px;line-height: 47px;fill: #595959;font-weight: bold;font-family: "Calibri" } 
+	</style>
+	<path id="Path 456" fill-rule="evenodd" class="s0" d="m52 514.6h1237.9m-1237.9-55.7h1237.9m-1237.9-56.2h1237.9m-1237.9-56.1h1237.9m-1237.9-56.2h1237.9m-1237.9-56.2h1237.9m-1237.9-56.1h1237.9m-1237.9-55.7h1237.9m-1237.9-56.2h1237.9m-1237.9-56.1h1237.9"/>
+	<path id="Path 457" class="s1" d="m52 570.9h1237.9"/>
+	<g id="Mask" clip-path="url(#cp1)">
+		<text id="0,9" style="transform: matrix(1,0,0,1,-0.557,576.48)" >
+			<tspan x="0" y="0" class="t2">0,9
+</tspan>
+		</text>
+		<text id="1" style="transform: matrix(1,0,0,1,17.593,520.32)" >
+			<tspan x="0" y="0" class="t2">1
+</tspan>
+		</text>
+		<text id="1,1" style="transform: matrix(1,0,0,1,-0.557,464.64)" >
+			<tspan x="0" y="0" class="t2">1,1
+</tspan>
+		</text>
+		<text id="1,2" style="transform: matrix(1,0,0,1,-0.557,408.48)" >
+			<tspan x="0" y="0" class="t2">1,2
+</tspan>
+		</text>
+		<text id="1,3" style="transform: matrix(1,0,0,1,-0.557,352.32)" >
+			<tspan x="0" y="0" class="t2">1,3
+</tspan>
+		</text>
+		<text id="1,4" style="transform: matrix(1,0,0,1,-0.557,296.16)" >
+			<tspan x="0" y="0" class="t2">1,4
+</tspan>
+		</text>
+		<text id="1,5" style="transform: matrix(1,0,0,1,-0.557,240)" >
+			<tspan x="0" y="0" class="t2">1,5
+</tspan>
+		</text>
+		<text id="1,6" style="transform: matrix(1,0,0,1,-0.557,183.84)" >
+			<tspan x="0" y="0" class="t2">1,6
+</tspan>
+		</text>
+		<text id="1,7" style="transform: matrix(1,0,0,1,-0.557,128.16)" >
+			<tspan x="0" y="0" class="t2">1,7
+</tspan>
+		</text>
+		<text id="1,8" style="transform: matrix(1,0,0,1,-0.557,72)" >
+			<tspan x="0" y="0" class="t2">1,8
+</tspan>
+		</text>
+		<text id="1,9" style="transform: matrix(1,0,0,1,-0.557,15.84)" >
+			<tspan x="0" y="0" class="t2">1,9
+</tspan>
+		</text>
+		<text id="2016" style="transform: matrix(1,0,0,1,27.7,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2016
+</tspan>
+		</text>
+		<text id="2017" style="transform: matrix(1,0,0,1,239.807,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2017
+</tspan>
+		</text>
+		<text id="2018" style="transform: matrix(1,0,0,1,451.914,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2018
+</tspan>
+		</text>
+		<text id="2020" style="transform: matrix(1,0,0,1,664.021,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2020
+</tspan>
+		</text>
+		<text id="2021" style="transform: matrix(1,0,0,1,876.128,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2021
+</tspan>
+		</text>
+		<text id="2022" style="transform: matrix(1,0,0,1,1088.235,608.16)" >
+			<tspan x="0" y="0" class="t3" dx="0 0 0 0 0" >2022
+</tspan>
+		</text>
+	</g>
+</svg>
