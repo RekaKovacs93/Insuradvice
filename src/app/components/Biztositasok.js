@@ -45,7 +45,7 @@ export default function Biztositasok() {
     <div id="elet" className="flex flex-col items-center w-full justify-center min-h-screen my-10">
       <h1 className="text-center text-xl lg:text-3xl  my-10">Életbiztosítások</h1>
       {/* <h1 className="text-center lg:text-xl lg:mb-14 lg:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
-      <p className="text-center px-20 mb-20">Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod
+      <p className="text-center lg:px-20 lg:mb-20 mb-10">Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod
         és gyermekeid vannak, fel kell készülnöd arra, hogy történhet egy nem kívánatos esemény, mint
         egy komoly baleset, vagy haláleset. Fontos, hogy biztonságban tudhasd őket, még akkor is, ha
         egyszer nem tudnál rájuk úgy vigyázni, mint előtte. Az életbiztosítás ebben a helyzetben jelentheti

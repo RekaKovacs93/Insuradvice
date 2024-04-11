@@ -63,7 +63,7 @@ export default function Tablazat () {
             <p className="text-center lg:text-sm text-xs lg:mx-10">6%-os feltételezett hozam, 3%-os értékkövetés és 20% SZJA jóváírás mellett</p>
             <p className="text-center lg:text-xs text-2xs mb-5"><i>Forrás: nyugdijbiztositas.com</i></p>
         </div>
-        <p className="my-20 text-center px-20">Átfogó elemzéssel és személyre szabott tanácsokkal tudok hozzájárulni ahhoz, hogy megtaláld a
+        <p className="my-20 text-center lg:px-20">Átfogó elemzéssel és személyre szabott tanácsokkal tudok hozzájárulni ahhoz, hogy megtaláld a
             legmegfelelőbb megoldást nyugdíjas éveidre.
             Ne aggódj, nem vagy egyedül ebben a helyzetben, kezdjük el még ma együtt építeni a
             biztonságos jövődet!</p>

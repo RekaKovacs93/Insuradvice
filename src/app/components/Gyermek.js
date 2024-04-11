@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Gyermek () {
     return (
         <div id="gyermek" className="my-10 lg:my-40">
-            <h1 className="lg:text-3xl text-xl mb-20 text-center">Gyermek megtakarítás</h1>
-            <p className="text-center mb-20 px-20">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
+            <h1 className="lg:text-3xl text-xl lg:mb-20 mb-10 text-center">Gyermek megtakarítás</h1>
+            <p className="text-center lg:mb-20 mb-10 lg:px-20 ">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
             <div className="flex gap-4 flex-wrap justify-center ">
                 
 

@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function Rolam() {
   return (
   <div>
-    <div className="lg:flex w-screen block lg:my-40 mt-20 mb-10 items-center justify-center">
-      <div className=" justify-center rounded-lg ml-10 border-2 dark:border-accent border-accentLight">
+    <div className="flex lg:flex-row flex-col w-screen lg:my-40 mt-20 mb-10 items-center justify-center">
+      <div className=" justify-center rounded-lg lg:ml-10 mx-5 lg:mx-0 border-2 dark:border-accent border-accentLight">
         {/* <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1> */}
         <Image
           src="/Robi.jpg"
           alt="Vadász Róbert Fotója"
           width={600}
           height={600}
-          className="rounded-lg bw-image "
+          className="rounded-lg bw-image"
         />
       </div>
-      <div className=" mx-10 lg:w-3/5 flex flex-col justify-center items-center lg:p-10 p-5 rounded-lg">
+      <div className=" mx-10 lg:w-3/5 flex flex-col justify-center items-center lg:p-10 lg:mt-0 mt-5 rounded-lg">
         <p className="text-3xl text-center mb-10">Üdvözöllek az Insuradvice honlapján!</p>
         <p className="lg:text-xl text-center">Ha itt vagy, akkor valószínűleg te is feltetted már magadnak az alábbi kérdéseket:</p> 
         <i className="lg:text-xl text-center">&quot;Hogyan kezeljem tudatosan pénzügyeimet?&quot;</i>

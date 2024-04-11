@@ -68,10 +68,10 @@ function toggleDarkMode() {
               <Link id="hover-underline-sm" href="/#gyermek" className="block text-right text-sm m-3">GYERMEKMEGTAKARÍTÁS</Link>
             </div>
           </span>
-          <Link id="hover-underline" href="./vevo" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
+          <Link id="hover-underline" href="/#befektetes" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             BEFEKTETÉS
           </Link>
-          <Link id="hover-underline" href="./kapcsolat" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
+          <Link id="hover-underline" href="/#kapcsolat" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             KAPCSOLAT
           </Link>
           <input
