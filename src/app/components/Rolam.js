@@ -26,7 +26,9 @@ export default function Rolam() {
         <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64 active:shadow-neumorphic-inverse"><a href="/#contact">Tudj meg többet</a></button>
       </div>
     </div>
-
+    {/* <div className="flex justify-center">
+    <div className="w-80 h-2 shadow-neumorphic-slim rounded-lg mb-20"></div>
+    </div> */}
   </div>
   );
 }

@@ -5,14 +5,14 @@ export default function Cegek () {
     return (
         <div>
             {/* <h1 className="md:text-5xl text-3xl my-10 text-center">Partner cégek</h1> */}
-            <div className="flex shadow-neumorphic-inverse my-20 gap-20 px-5 w-screen items- justify-center">
+            <div className="flex flex-wrap shadow-neumorphic-inverse mt-20 lg:gap-20 gap-5 lg:px-5 w-screen items-center justify-center">
 
             <Image
                 src="/signal.svg"
                 alt="generali"
                 width={100}
                 height={50}
-                className="filter"
+                className="filter scale-10 lg:scale-100"
                 
             />
             <Image
@@ -20,7 +20,7 @@ export default function Cegek () {
                 alt="generali"
                 width={200}
                 height={50}
-                className="filter pt-3"
+                className="filter pt-3 scale-10 lg:scale-100"
                 
             />
             <Image
@@ -28,7 +28,7 @@ export default function Cegek () {
                 alt="generali"
                 width={100}
                 height={50}
-                className="filter"
+                className="filter scale-20 lg:scale-100"
                 
             />
             <Image
@@ -36,7 +36,7 @@ export default function Cegek () {
                 alt="generali"
                 width={100}
                 height={50}
-                className="filter"
+                className="filter scale-20 lg:scale-100"
                 
             />
             <Image
@@ -44,7 +44,7 @@ export default function Cegek () {
                 alt="generali"
                 width={150}
                 height={50}
-                className="filter"
+                className="filter scale-10 lg:scale-100"
                 
             />
             <Image
@@ -52,7 +52,7 @@ export default function Cegek () {
                 alt="generali"
                 width={100}
                 height={50}
-                className="filter"
+                className="filter scale-50 lg:scale-100"
                 
             />
 

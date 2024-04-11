@@ -21,6 +21,7 @@ export default function Nyugdij () {
                 minden évben pluszban megkaphatsz az egyenlegedre. Adókedvezmény mellé még bónuszok és
                 jóváírások formájában is extra összegekhez juthatsz, amik szintén a nyugdíjszámla összegét
                 egészíthetik ki.</p>
+            <p className="mb-20 text-center px-20">Az alábbi táblázatban található a nyugdíjbiztosítások lejárati összege, szerződéskezdeti életkor, illetve havi megtakarítási összeg szerint. (A táblázatban található összegek csak iránymutatóként szolgálnak, részletes és pontos tájékoztatásért személyes konzultáció szükséges, nyugdíjbiztosítás 30 éves kor alatt is indítható)</p>  
         </div>
     )
 }

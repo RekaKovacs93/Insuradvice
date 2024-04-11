@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Statisztika () {
     return (
-        <div className="my-10">
+        <div className="my-10 lg:40">
             <h1 className="md:text-5xl text-3xl mb-20 text-center">Pénzügyi termékek fontossága</h1>
             <div className="flex gap-3 flex-wrap justify-center ">
                 <div className="shadow-neumorphic-inverse px-5 rounded-lg flex justify-center items-center w-72">
