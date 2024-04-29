@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Charts () {
     return (
-        <div className="flex flex-wrap gap-10 justify-center lg:p-10 p-5 rounded-lg">
+        <div className="flex flex-wrap gap-10 justify-center lg:p-10 p-0 rounded-lg">
 
             <div>
                 <div className="flex justify-between items-end">

@@ -42,7 +42,7 @@ export default function Biztositasok() {
 
 
   return (
-    <div id="elet" className="flex flex-col items-center w-full justify-center min-h-screen my-10 shadow-neumorphic-inverse rounded-lg py-10">
+    <div id="elet" className="flex flex-col items-center lg:w-full justify-center min-h-screen lg:my-10 my-5 lg:shadow-neumorphic-inverse rounded-lg lg:py-10">
       <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-20 py-3">Életbiztosítás</h1>
       {/* <h1 className="text-center lg:text-xl lg:mb-14 lg:px-10">Költségei a mi pénztárcánkat terhelik!</h1> */}
       <p className="text-center lg:px-20 lg:mb-20 mb-10">Sokan hajlamosak azt gondolni, hogy velük sosem történhet meg a baj. Azonban amikor családod

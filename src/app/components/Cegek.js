@@ -60,7 +60,7 @@ export default function Cegek () {
             
 
             </div>
-            <div className="lg:hidden flex flex-wrap shadow-neumorphic-inverse gap-5 w-screen items-center justify-center">
+            <div className="lg:hidden flex flex-wrap shadow-neumorphic-inverse gap-3 w-screen items-center justify-center">
 
 <Image
     src="/signal.svg"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Rolam() {
   return (
   <div >
-    <div className="flex lg:flex-row flex-col rounded-lg lg:mt-40 lg:mb-20 mt-20 mb-10 items-center justify-center shadow-neumorphic-inverse ">
+    <div className="flex lg:flex-row flex-col rounded-lg lg:mt-40 lg:mb-20 mt-20 mb-10 items-center justify-center lg:shadow-neumorphic-inverse ">
       <div className=" justify-center rounded-lg lg:ml-10 mx-5 lg:mx-0 border-2 shadow-neumorphic dark:border-accent border-accentLight">
         {/* <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1> */}
         <Image

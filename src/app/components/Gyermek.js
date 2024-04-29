@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Gyermek () {
     return (
         <div>
-        <div id="gyermek" className="my-10 lg:my-0 shadow-neumorphic-inverse rounded-lg py-10 ">
+        <div id="gyermek" className="lg:shadow-neumorphic-inverse rounded-lg  pb-0">
             <h1 className="lg:text-5xl text-3xl  text-center py-20">Gyermek megtakarítás</h1>
             <p className="text-center lg:mb-20 mb-10 lg:px-20 ">A legtöbb szülő számára rendkívül fontos gyermeke jövője. A jelenlegi gazdasági helyzet okot adhat aggodalomra, amikor arról van szó, hogy pénzügyileg támogasd gyermekedet. Vannak olyan gyakran előforduló problémák, mint például a váratlan egészségügyi kiadások, az egyre növekvő egyetemi tandíjak vagy éppen a lakáspiaci kihívások, amelyek megnehezíthetik a gyermeked számára az eredményes jövő kialakítását.</p>
             <div className="flex gap-4 flex-wrap justify-center ">
@@ -43,7 +43,7 @@ export default function Gyermek () {
                     <h1 className="pt-5 text-center"><p><b className="text-accentLight text-xl dark:text-accent">Hobbi</b></p>táborok, különórák</h1>
                 </div>
             </div>
-            <div className="lg:shadow-neumorphic-inverse rounded-lg py-10 mt-10 flex flex-col justify-center items-center">
+            <div className="lg:shadow-neumorphic-inverse rounded-lg lg:py-10 mt-10 flex flex-col justify-center items-center">
                 {/* <p className="text-center lg:mx-20">Az előbbi csak néhány példa. De ha összeadsz néhány gyakori kiadási tételt, amire egy fiatal felnőttnek szüksége lehet – kezdve a különóráktól a ruházkodáson át a mobiltelefonokig – könnyen beláthatod, hogy jobb hosszú évek alatt félretenni ezekre a kiadásokra, mint kockáztatni, hogy ne legyen éppen elég pénz az adott célra.</p> */}
                 <h1 className="text-center mb-10 text-xl "><b>Azonban ne ess kétségbe!</b></h1>
                 <p className="text-center lg:mx-10 mb-5">A gyermek megtakarítások lehetővé teszik, hogy időben felkészülj a váratlan helyzetekre és elősegítsd gyermeked önálló életkezdését. Folyamatosan félrerakhatod pénzt számára, apránként, folyamatosan, olyan mértékben, hogy ne nehezítse a mindennapi életet, az alapvető családi anyagi biztonságot, hogy könnyebben boldoguljon az egyetemi évek alatt vagy hogy  támogatást kapjon az önálló életkezdéshez és stabil alapokkal induljon neki a saját útjának.</p>
