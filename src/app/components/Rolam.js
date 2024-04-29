@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Rolam() {
   return (
-  <div>
-    <div className="flex lg:flex-row flex-col w-screen lg:my-40 mt-20 mb-10 items-center justify-center">
-      <div className=" justify-center rounded-lg lg:ml-10 mx-5 lg:mx-0 border-2 dark:border-accent border-accentLight">
+  <div >
+    <div className="flex lg:flex-row flex-col rounded-lg lg:mt-40 lg:mb-20 mt-20 mb-10 items-center justify-center shadow-neumorphic-inverse ">
+      <div className=" justify-center rounded-lg lg:ml-10 mx-5 lg:mx-0 border-2 shadow-neumorphic dark:border-accent border-accentLight">
         {/* <h1 className="text-6xl lg:mb-0 mb-20 hidden lg:block"></h1> */}
         <Image
           src="/Robi.jpg"
@@ -25,6 +25,11 @@ export default function Rolam() {
         <p className="lg:text-xl text-center">Engedd meg, hogy bemutatkozzam: Vadász Róbert vagyok, a te személyes és független pénzügyi tanácsadód. Célom, hogy átláthatóvá és kiszámíthatóvá tegyem anyagi lehetőségeidet és elkalauzoljalak egy olyan világba, ahol biztonságban érezheted magad, tudva, hogy pénzügyeid jól vannak kezelve.</p>
         <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64 active:shadow-neumorphic-inverse"><a href="/#contact">Tudj meg többet</a></button>
       </div>
+    </div>
+    <div className="flex gap-5 items-center justify-center my-20">
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
     </div>
     {/* <div className="flex justify-center">
     <div className="w-80 h-2 shadow-neumorphic-slim rounded-lg mb-20"></div>

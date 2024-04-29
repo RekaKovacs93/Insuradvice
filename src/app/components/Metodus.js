@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 export default function Metodus() {
     return (
-        <div className="lg:m-20 lg:w-full ">
+        <div className=" lg:w-full ">
                 
-            <div className=" hidden lg:flex lg:flex-col justify-center w-full min-h-screen px-20 pb-10 rounded-lg items-center">
+            <div className="shadow-neumorphic-inverse hidden lg:flex lg:flex-col justify-center w-full min-h-screen px-20 pb-10 rounded-lg items-center">
             <div>
-            <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-5 py-3 lg:mb-20">A tanácsadás folyamata</h1>
+            <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-20 py-3">A tanácsadás folyamata</h1>
             <p className='text-center lg:mb-40'>Elkötelezett vagyok az iránt, hogy minden ügyfelem számára személyre szabott megoldásokat kínáljak. Független pénzügyi tanácsadóként kapcsolatban állok több, mint 60 pénzügyi szolgáltatóval, így olyan lehetőségeket tudok ajánlani, amelyek teljes mértékben a te igényeidhez vannak igazítva. Az első találkozón felmérjük ezeket az igényeket, majd egy második találkozó alkalmával kiválasztjuk együtt a számodra legmegfelelőbb lehetőségeket. Ezek a konzultációk teljesen ingyenesek és semmilyen rejtett költséggel nem járnak.
             </p></div>
                 <div className='lg:px-20 flex flex-col lg:flex-row justify-between items-center w-2 h-full lg:w-full lg:h-4 shadow-neumorphic-inverse-slim mt-20 rounded-lg'>
@@ -48,7 +48,7 @@ export default function Metodus() {
                     </div>
                 </div>
                 <button className="mt-64 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
-
+                
             </div>
 
             
@@ -104,7 +104,11 @@ export default function Metodus() {
             <button className="shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>
-            
+            <div className="flex gap-5 items-center justify-center my-20">
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
+        <div className="shadow-neumorphic-slim rounded-full w-4 h-4"></div>
+    </div>
         </div>
     )
 }

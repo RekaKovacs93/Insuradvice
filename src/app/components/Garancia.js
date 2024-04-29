@@ -3,7 +3,7 @@ export default function Garancia () {
         <div id="kapcsolat">
             
 
-            <div className=" my-10  flex flex-col justify-center">
+            <div className="  flex flex-col justify-center">
             
             
                 <h1 className="lg:text-5xl text-3xl mb-10 text-center ">Tájékozódj és dönts tudatosan!</h1>

@@ -25,7 +25,7 @@ export default function Home() {
       
       <Statisztika></Statisztika>
       <Nyugdij></Nyugdij>
-      <Tablazat></Tablazat>
+      {/* <Tablazat></Tablazat> */}
       <Biztositasok></Biztositasok>
       <Gyermek></Gyermek>
       <Befektetes></Befektetes>
