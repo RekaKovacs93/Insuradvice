@@ -4,7 +4,7 @@ export default function Metodus() {
     return (
         <div className=" lg:w-full ">
                 
-            <div className="shadow-neumorphic-inverse hidden lg:flex lg:flex-col justify-center w-full min-h-screen px-20 pb-10 rounded-lg items-center">
+            <div className=" hidden lg:flex lg:flex-col justify-center w-full min-h-screen px-20 pb-10 rounded-lg items-center">
             <div>
             <h1 className="text-center text-3xl lg:text-5xl lg:px-10 lg:py-20 py-3">A tanácsadás folyamata</h1>
             <p className='text-center lg:mb-40'>Elkötelezett vagyok az iránt, hogy minden ügyfelem számára személyre szabott megoldásokat kínáljak. Független pénzügyi tanácsadóként kapcsolatban állok több, mint 60 pénzügyi szolgáltatóval, így olyan lehetőségeket tudok ajánlani, amelyek teljes mértékben a te igényeidhez vannak igazítva. Az első találkozón felmérjük ezeket az igényeket, majd egy második találkozó alkalmával kiválasztjuk együtt a számodra legmegfelelőbb lehetőségeket. Ezek a konzultációk teljesen ingyenesek és semmilyen rejtett költséggel nem járnak.

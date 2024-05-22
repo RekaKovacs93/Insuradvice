@@ -12,7 +12,7 @@ export default function Cegek () {
                 alt="signal"
                 width={100}
                 height={50}
-                className="filter scale-10 lg:scale-100"
+                className=" scale-10 lg:scale-100"
                 
             />
             <Image
@@ -20,7 +20,7 @@ export default function Cegek () {
                 alt="cig"
                 width={200}
                 height={50}
-                className="filter pt-3 scale-10 lg:scale-100"
+                className=" pt-3 scale-10 lg:scale-100"
                 
             />
             <Image
@@ -28,7 +28,7 @@ export default function Cegek () {
                 alt="nn"
                 width={100}
                 height={50}
-                className="filter scale-20 lg:scale-100"
+                className=" scale-20 lg:scale-100"
                 
             />
             <Image
@@ -36,7 +36,7 @@ export default function Cegek () {
                 alt="metlife"
                 width={100}
                 height={50}
-                className="filter scale-20 lg:scale-100"
+                className=" scale-20 lg:scale-100"
                 
             />
             <Image
@@ -44,7 +44,7 @@ export default function Cegek () {
                 alt="union"
                 width={150}
                 height={50}
-                className="filter scale-10 lg:scale-100"
+                className=" scale-10 lg:scale-100"
                 
             />
             <Image
@@ -52,7 +52,7 @@ export default function Cegek () {
                 alt="generali"
                 width={100}
                 height={50}
-                className="filter scale-50 lg:scale-100"
+                className=" scale-50 lg:scale-100"
                 
             />
 
@@ -67,7 +67,7 @@ export default function Cegek () {
     alt="signal"
     width={40}
     height={20}
-    className="filter"
+    className=""
     
 />
 <Image
@@ -75,7 +75,7 @@ export default function Cegek () {
     alt="cig"
     width={40}
     height={20}
-    className="filter pt-3 "
+    className=" pt-3 "
     
 />
 <Image
@@ -83,7 +83,7 @@ export default function Cegek () {
     alt="nn"
     width={40}
     height={20}
-    className="filter"
+    className=""
     
 />
 <Image
@@ -91,14 +91,14 @@ export default function Cegek () {
     alt="generali"
     width={40}
     height={20}
-    className="filter"
+    className=""
 />
 <Image
     src="/union.svg"
     alt="union"
     width={40}
     height={20}
-    className="filter"
+    className=""
     
 />
 <Image
@@ -106,7 +106,7 @@ export default function Cegek () {
     alt="generali"
     width={40}
     height={20}
-    className="filter"
+    className=""
     
 />
 

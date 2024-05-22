@@ -56,7 +56,7 @@ function toggleDarkMode() {
         </Link>
 
         <div className="hidden lg:flex flex-grow items-center justify-end space-x-8 text-lg">
-          <Link id="hover-underline" href="/" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
+          <Link id="hover-underline" href="/#rolam" onClick={closeMenu} className="block lg:inline-block mt-4 lg:mt-0">
             RÓLAM
           </Link>
           <span id="biztositas-link" className="block lg:inline-block mt-4 lg:mt-0 relative">

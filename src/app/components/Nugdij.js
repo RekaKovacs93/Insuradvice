@@ -30,7 +30,7 @@ export default function Nyugdij () {
                     <h1 className="text-center text-3xl lg:px-10 px-0 lg:py-0 py-3 lg:my-0  text-accentLight dark:text-accent my-10">Nyugdíjbiztosítás előnyei</h1>
 
                     <ul className="lg:mt-5 text-xl text-center">
-                        <li className="mb-2"><p className="inline text-accentLight dark:text-accent lg:text-2xl">&#10003;</p> Garantált hozam</li>
+                        <li className="mb-2"><p className="inline text-accentLight dark:text-accent lg:text-2xl">&#10003;</p> Inflációt meghaladó hozam</li>
                         <li className="mb-2"><p className="inline text-accentLight dark:text-accent lg:text-2xl">&#10003;</p> Tervezhető jövedelem</li>
                         <li className="mb-2"><p className="inline text-accentLight dark:text-accent lg:text-2xl">&#10003;</p> Akár évi 130.000 Ft adókedvezmény</li>
                         <li className="mb-2"><p className="inline text-accentLight dark:text-accent lg:text-2xl">&#10003;</p> Bónuszok és jóváírások</li>
