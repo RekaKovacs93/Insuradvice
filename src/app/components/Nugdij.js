@@ -12,7 +12,7 @@ export default function Nyugdij () {
                 Ahhoz, hogy biztonságos nyugdíjas éveket teremts magadnak és családodnak, fontos, hogy
                 időben felkészülj és tedd meg a megfelelő lépéseket. Minél korábban kezded el a megtakarítást,
                 annál több pénzt vehetsz majd ki a nyugdíjas éveid alatt! Ebben a folyamatban én, mint
-                szakember, segítek neked. Átfogó elemzéssel és személyre szabott tanácsokkal tudok hozzájárulni ahhoz, hogy megtaláld a
+                szakember, támogatlak. Átfogó elemzéssel és személyre szabott tanácsokkal tudok hozzájárulni ahhoz, hogy megtaláld a
             legmegfelelőbb megoldást nyugdíjas éveidre.
             Ne aggódj, nem vagy egyedül ebben a helyzetben, kezdjük el még ma együtt építeni a
             biztonságos jövődet!</p>

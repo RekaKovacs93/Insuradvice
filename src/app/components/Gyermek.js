@@ -55,7 +55,7 @@ export default function Gyermek () {
                     <li className="mb-2"><i>Milyen adózási rendszerben vagy, magánszemélyként vagy vállalkozóként?</i></li>
                     <li className="mb-2"><i>Milyen befektetői profilra jellemzőbb inkább: aktív vagy passzív?</i></li>
                 </ul> */}
-                <p className="text-center lg:mx-20 mt-5"><b>Segítek tisztán látni, hogy mennyit tudsz biztonságosan havonta félretenni, hogy később ne kelljen hozzányúlni és így veszteséget szenvedni.</b></p>
+                <p className="text-center lg:mx-20 mt-5"><b>Segítek tisztán látni, hogy mennyit tudsz biztonságosan havonta félretenni, hogy később ne kelljen hozzányúlni és így pénzügi veszteséget szenvedni.</b></p>
                 <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>

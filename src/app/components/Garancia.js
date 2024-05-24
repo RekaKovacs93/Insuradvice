@@ -7,7 +7,7 @@ export default function Garancia () {
             
             
                 <h1 className="lg:text-5xl text-3xl mb-10 text-center ">Tájékozódj és dönts tudatosan!</h1>
-                <p className="text-center lg:mx-20 mx-5 lg:mb-20 mb-10">Az anyagi döntések meghozatala fontos és felelősségteljes feladat. Azonban ne aggódj, nem vagy egyedül. Én itt vagyok, hogy segítsek neked minden lépésben, hogy biztonságban érezd magad és elérd pénzügyi céljaidat.</p>
+                <p className="text-center lg:mx-20 mx-5 lg:mb-20 mb-10">Az anyagi döntések meghozatala fontos és felelősségteljes feladat. Azonban ne aggódj, nem vagy egyedül. Támogatlak minden lépésben, hogy biztonságban érezd magad és elérd pénzügyi céljaidat.</p>
 
                 <div className="flex  flex-col lg:flex-row justify-center items-center">
                     <div className="lg:w-3/4">
