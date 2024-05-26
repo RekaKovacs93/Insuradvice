@@ -46,7 +46,7 @@ export default function Gyermek () {
             <div className="lg:shadow-neumorphic-inverse rounded-lg lg:py-10 mt-10 flex flex-col justify-center items-center">
                 {/* <p className="text-center lg:mx-20">Az előbbi csak néhány példa. De ha összeadsz néhány gyakori kiadási tételt, amire egy fiatal felnőttnek szüksége lehet – kezdve a különóráktól a ruházkodáson át a mobiltelefonokig – könnyen beláthatod, hogy jobb hosszú évek alatt félretenni ezekre a kiadásokra, mint kockáztatni, hogy ne legyen éppen elég pénz az adott célra.</p> */}
                 <h1 className="text-center mb-10 text-xl "><b>Azonban ne ess kétségbe!</b></h1>
-                <p className="text-center lg:mx-10 mb-5">A gyermek megtakarítások lehetővé teszik, hogy időben felkészülj a váratlan helyzetekre és elősegítsd gyermeked önálló életkezdését. Folyamatosan félrerakhatod pénzt számára, apránként, folyamatosan, olyan mértékben, hogy ne nehezítse a mindennapi életet, az alapvető családi anyagi biztonságot, hogy könnyebben boldoguljon az egyetemi évek alatt vagy hogy  támogatást kapjon az önálló életkezdéshez és stabil alapokkal induljon neki a saját útjának.</p>
+                <p className="text-center lg:mx-10 mb-5">A gyermek megtakarítások lehetővé teszik, hogy időben felkészülj a várt és váratlan helyzetekre és elősegítsd gyermeked önálló életkezdését. Folyamatosan félrerakhatod pénzt számára, apránként, folyamatosan, olyan mértékben, hogy ne nehezítse a mindennapi életet, az alapvető családi anyagi biztonságot, hogy könnyebben boldoguljon az egyetemi évek alatt vagy hogy  támogatást kapjon az önálló életkezdéshez és stabil alapokkal induljon neki a saját útjának.</p>
                 {/* <p className="text-center lg:mx-20 my-10"><b></b></p> */}
                 {/* <ul className="text-center">
                     <li className="mb-2"><i>Mekkora összeget szeretnél havonta félretenni?</i></li>
@@ -55,7 +55,7 @@ export default function Gyermek () {
                     <li className="mb-2"><i>Milyen adózási rendszerben vagy, magánszemélyként vagy vállalkozóként?</i></li>
                     <li className="mb-2"><i>Milyen befektetői profilra jellemzőbb inkább: aktív vagy passzív?</i></li>
                 </ul> */}
-                <p className="text-center lg:mx-20 mt-5"><b>Segítek tisztán látni, hogy mennyit tudsz biztonságosan havonta félretenni, hogy később ne kelljen hozzányúlni és így pénzügi veszteséget szenvedni.</b></p>
+                <p className="text-center lg:mx-20 mt-5"><b>Támogatlak abban, hogy tisztán látsd, mennyit tudsz biztonságosan havonta félretenni, hogy később ne egy összegben érjen téged egy várt vagy váratlan kiadás.</b></p>
                 <button className="mt-10 shadow-neumorphic hover:scale-110 border dark:border-accent border-accentLight bg-light dark:bg-dark font-bold py-2 px-4 rounded-lg transition duration-300 w-64"><a href="/#contact">Tudj meg többet</a></button>
 
             </div>
