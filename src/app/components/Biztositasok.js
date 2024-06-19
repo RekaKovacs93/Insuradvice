@@ -2,7 +2,7 @@
 const allrows =[
     {
       title: "Baleset biztosítás",
-      description: "Olyan életbiztosítás, amikor a szerződő egy vállalat, társaság, cég stb. lehet, aki becsatlakozik az válhat biztosítottá",
+      description: "A balesetbiztosítás egy olyan kockázati biztosítás, melynél váratlan és nem szándékos baleseti sérülés (vagy baleseti halál) miatt a biztosító egy kisebb összegű havi díjért cserébe kártérítést fizet, ami a felépülés költségeit és a baleset miatti bevételkiesést tudja pótolni.",
       
     },
     {
