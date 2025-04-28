@@ -17,9 +17,9 @@ export default function Cegek () {
             />
             
             <Image
-                src="/nn.jpeg"
-                alt="nn"
-                width={100}
+                src="/uniqua.svg"
+                alt="uniqua"
+                width={80}
                 height={50}
                 className=" scale-20 lg:scale-100"
                 
@@ -99,9 +99,9 @@ export default function Cegek () {
 />
 
 <Image
-    src="/nn.jpeg"
-    alt="nn"
-    width={40}
+    src="/uniqua.svg"
+    alt="uniqua"
+    width={30}
     height={20}
     className=""  
 />
